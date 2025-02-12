@@ -474,10 +474,10 @@ const optionsOcupability = [
 ]
 
 const colorsAROC = {
-    "AR_seco.process": "#161f35",
-    "AR_refrigeration.process": "#36415d",
-    "OC_seco.process": "#161f35",
-    "OC_refrigeration.process": "#36415d",
+    "AR_seco.process": "#146eb8",
+    "AR_refrigeration.process": "#ff9e00",
+    "OC_seco.process": "#146eb8",
+    "OC_refrigeration.process": "#ff9e00",
 }
 
 function getNameParse(name) {
@@ -504,11 +504,11 @@ const CustomLabel = ({ x, y, width, height, value }) => {
     if (!value || value === 0) return null;
     return (
         <text
-        x={x + width / 2}
-        y={y + height / 2}
-        textAnchor="middle"
-        fontSize={12}
-        fill="white"
+            x={x + width / 2}
+            y={y + height / 2}
+            textAnchor="middle"
+            fontSize={20}
+            fill="white"
         >
         {value}
         </text>
@@ -522,7 +522,7 @@ const CustomTotalLabel = ({ x, y, width, value }) => {
         x={x + width / 2}
         y={y - 10}
         textAnchor="middle"
-        fontSize={14}
+        fontSize={20}
         fill="#000"
         >
         {value}
@@ -684,10 +684,10 @@ const ActasOC = ({ typeAROC }) => {
                             <Tooltip content={<CustomTooltip />} />
                             <Legend />
             
-                            <Bar dataKey="AR_seco.process" stackId="ar" fill="#161f35">
+                            <Bar dataKey="AR_seco.process" stackId="ar" fill="#146eb8">
                                 <LabelList dataKey="AR_seco.process" content={CustomLabel} />
                             </Bar>
-                            <Bar dataKey="AR_refrigeration.process" stackId="ar" fill="#36415d">
+                            <Bar dataKey="AR_refrigeration.process" stackId="ar" fill="#ff9e00">
                                 <LabelList
                                     dataKey="AR_refrigeration.process"
                                     content={CustomLabel}
@@ -701,10 +701,10 @@ const ActasOC = ({ typeAROC }) => {
                                 />
                             </Bar>
             
-                            <Bar dataKey="OC_seco.process" stackId="oc" fill="#161f35">
+                            <Bar dataKey="OC_seco.process" stackId="oc" fill="#146eb8">
                                 <LabelList dataKey="OC_seco.process" content={CustomLabel} />
                             </Bar>
-                            <Bar dataKey="OC_refrigeration.process" stackId="oc" fill="#36415d">
+                            <Bar dataKey="OC_refrigeration.process" stackId="oc" fill="#ff9e00">
                                 <LabelList
                                     dataKey="OC_refrigeration.process"
                                     content={CustomLabel}

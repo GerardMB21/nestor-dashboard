@@ -18,7 +18,7 @@ const CustomLabel = ({ x, y, width, height, value }) => {
             x={x + width / 2}
             y={y + height / 2}
             textAnchor="middle"
-            fontSize={12}
+            fontSize={20}
             fill="white"
         >
             {value}

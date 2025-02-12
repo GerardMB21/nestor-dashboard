@@ -1130,7 +1130,7 @@ function  getNameParse(name) {
 const CustomLabel = ({ x, y, width, height, value }) => {
     if (!value || value === 0) return null;
     return (
-        <text x={x + width / 2} y={y + height / 2} textAnchor="middle" fontSize={12} fill="white">
+        <text x={x + width / 2} y={y + height / 2} textAnchor="middle" fontSize={20} fill="white">
             {value}
         </text>
     );

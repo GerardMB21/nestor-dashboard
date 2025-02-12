@@ -461,7 +461,7 @@ const line = {
 };
 
 const colorsUnity = {
-    "quantity": "#161f35",
+    "quantity": "#1d5786",
     "box": "#1b2642"
 }
 
@@ -472,7 +472,7 @@ const CustomLabel = ({ x, y, width, height, value }) => {
             x={x + width / 2}
             y={y + height / 2}
             textAnchor="middle"
-            fontSize={12}
+            fontSize={20}
             fill="white"
         >
             {value}
@@ -522,7 +522,7 @@ const UnityBox = ({ typeUnity }) => {
                         {/* <Bar dataKey="box" stackId="oc" fill="#708090">
                             <LabelList dataKey="box" content={CustomLabel} />
                         </Bar> */}
-                        <Bar dataKey="quantity" stackId="oc" fill="#161f35">
+                        <Bar dataKey="quantity" stackId="oc" fill="#1d5786">
                             <LabelList dataKey="quantity" content={CustomLabel} />
                         </Bar>
         
