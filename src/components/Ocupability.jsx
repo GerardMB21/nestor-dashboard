@@ -1095,16 +1095,16 @@ const lineTrash = {
 };
 
 const colorsOcupability = {
-    "Contramuestras": "#264478",
-    "Devoluciones": "#A5A5A5",
-    "Controlados": "#ED7D31",
-    "Rechazados": "#636363",
-    "PT Muestra Médica": "#9E480E",
-    "Material de empaque": "#5B9BD5",
-    "Material promocional": "#70AD47",
-    "PT Disponible": "#264478",
-    "PT Cuarentena": "#997300",
-    "Mat Embalaje": "#FFC000",
+   "Contramuestras": "#264478",
+   "Devoluciones": "#A5A5A5",
+   "Controlados": "#ED7D31",
+   "Rechazados": "#636363",
+   "PT Muestra Médica": "#9E480E",
+   "Material de empaque": "#5B9BD5",
+   "Material promocional": "#70AD47",
+   "PT Disponible": "#264478",
+   "PT Cuarentena": "#997300",
+   "Mat Embalaje": "#FFC000",
 }
 
 function  getNameParse(name) {
@@ -1197,7 +1197,7 @@ const Ocupability = ({ typeO }) => {
     switch (typeO) {
         case "Todos":
             return (
-                <ResponsiveContainer width="100%" height="100%">
+                <ResponsiveContainer width="98%" height="80%">
                     <ComposedChart
                         width={500}
                         height={300}
@@ -1254,7 +1254,7 @@ const Ocupability = ({ typeO }) => {
 
         default:
             return (
-                <ResponsiveContainer width="100%" height="100%">
+                <ResponsiveContainer width="98%" height="80%">
                     <ComposedChart
                         width={500}
                         height={300}
