@@ -366,6 +366,1030 @@ const data = [
         }
     }
 ]
+const dataMonths = {
+    "2024 - Enero":[
+        {
+            "name":"H REPS S.A.C.",
+            "value":{
+            "box":365,
+            "palletes":23
+            }
+        },
+        {
+            "name":"Quimica Suiza S.A.",
+            "value":{
+            "box":451,
+            "palletes":92
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":49,
+            "palletes":0
+            }
+        },
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":66,
+            "palletes":33
+            }
+        }
+    ],
+    "2024 - Febrero":[
+        {
+            "name":"Quimica Suiza S.A.",
+            "value":{
+            "box":326,
+            "palletes":140
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":52,
+            "palletes":0
+            }
+        },
+        {
+            "name":"H REPS S.A.C.",
+            "value":{
+            "box":203,
+            "palletes":20
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU",
+            "value":{
+            "box":1,
+            "palletes":0
+            }
+        },
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":66,
+            "palletes":22
+            }
+        }
+    ],
+    "2024 - Marzo":[
+        {
+            "name":"Quimica Suiza S.A.",
+            "value":{
+            "box":319,
+            "palletes":73
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":61,
+            "palletes":0
+            }
+        },
+        {
+            "name":"H REPS S.A.C.",
+            "value":{
+            "box":369,
+            "palletes":39
+            }
+        },
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":77,
+            "palletes":21
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU",
+            "value":{
+            "box":1,
+            "palletes":1
+            }
+        }
+    ],
+    "2024 - Abril":[
+        {
+            "name":"Quimica Suiza S.A.",
+            "value":{
+            "box":265,
+            "palletes":84
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":52,
+            "palletes":0
+            }
+        },
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":103,
+            "palletes":23
+            }
+        },
+        {
+            "name":"H REPS S.A.C.",
+            "value":{
+            "box":300,
+            "palletes":45
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU",
+            "value":{
+            "box":1,
+            "palletes":0
+            }
+        }
+    ],
+    "2024 - Mayo":[
+        {
+            "name":"Quimica Suiza S.A.",
+            "value":{
+            "box":481,
+            "palletes":118
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":60,
+            "palletes":0
+            }
+        },
+        {
+            "name":"H REPS S.A.C.",
+            "value":{
+            "box":247,
+            "palletes":24
+            }
+        },
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":92,
+            "palletes":43
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU",
+            "value":{
+            "box":1,
+            "palletes":1
+            }
+        }
+    ],
+    "2024 - Junio":[
+        {
+            "name":"QUIMICA SUIZA S.A.C.",
+            "value":{
+            "box":109,
+            "palletes":40
+            }
+        },
+        {
+            "name":"Quimica Suiza S.A.C.",
+            "value":{
+            "box":49,
+            "palletes":5
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":83,
+            "palletes":0
+            }
+        },
+        {
+            "name":"H REPS SAC",
+            "value":{
+            "box":279,
+            "palletes":29
+            }
+        },
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":78,
+            "palletes":35
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU",
+            "value":{
+            "box":1,
+            "palletes":1
+            }
+        }
+    ],
+    "2024 - Julio":[
+        {
+            "name":"H REPS SAC",
+            "value":{
+            "box":119,
+            "palletes":16
+            }
+        },
+        {
+            "name":"Quimica Suiza S.A.C.",
+            "value":{
+            "box":28,
+            "palletes":8
+            }
+        },
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":78,
+            "palletes":22
+            }
+        },
+        {
+            "name":"QUIMICA SUIZA S.A.C.",
+            "value":{
+            "box":98,
+            "palletes":23
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":36,
+            "palletes":1
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU (MAP. PAP)",
+            "value":{
+            "box":2,
+            "palletes":1
+            }
+        }
+    ],
+    "2024 - Agosto":[
+        {
+            "name":"QUIMICA SUIZA S.A.C.",
+            "value":{
+            "box":116,
+            "palletes":36
+            }
+        },
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":109,
+            "palletes":33
+            }
+        },
+        {
+            "name":"H REPS SAC",
+            "value":{
+            "box":263,
+            "palletes":53
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":25,
+            "palletes":0
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU (PAP KISQA)",
+            "value":{
+            "box":2,
+            "palletes":2
+            }
+        },
+        {
+            "name":"Quimica Suiza S.A.C.",
+            "value":{
+            "box":130,
+            "palletes":22
+            }
+        }
+    ],
+    "2024 - Setiembre":[
+        {
+            "name":"QUIMICA SUIZA S.A.C.",
+            "value":{
+            "box":192,
+            "palletes":99
+            }
+        },
+        {
+            "name":"Quimica Suiza S.A.C.",
+            "value":{
+            "box":61,
+            "palletes":20
+            }
+        },
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":125,
+            "palletes":13
+            }
+        },
+        {
+            "name":"H REPS SAC",
+            "value":{
+            "box":357,
+            "palletes":45
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":40,
+            "palletes":0
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU (PAP KISQA)",
+            "value":{
+            "box":1,
+            "palletes":1
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU (MAP JAKAVI)",
+            "value":{
+            "box":1,
+            "palletes":1
+            }
+        }
+    ],
+    "2024 - Octubre":[
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":161,
+            "palletes":28
+            }
+        },
+        {
+            "name":"QUIMICA SUIZA S.A.C.",
+            "value":{
+            "box":87,
+            "palletes":33
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":41,
+            "palletes":0
+            }
+        },
+        {
+            "name":"H REPS SAC",
+            "value":{
+            "box":364,
+            "palletes":84
+            }
+        },
+        {
+            "name":"Quimica Suiza S.A.C.",
+            "value":{
+            "box":209,
+            "palletes":57
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU (PAP)",
+            "value":{
+            "box":3,
+            "palletes":3
+            }
+        }
+    ],
+    "2024 - Noviembre":[
+        {
+            "name":"QUIMICA SUIZA S.A.C.",
+            "value":{
+            "box":147,
+            "palletes":53
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":32,
+            "palletes":0
+            }
+        },
+        {
+            "name":"H REPS SAC",
+            "value":{
+            "box":310,
+            "palletes":32
+            }
+        },
+        {
+            "name":"Quimica Suiza S.A.C.",
+            "value":{
+            "box":40,
+            "palletes":2
+            }
+        },
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":50,
+            "palletes":13
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU (PAP)",
+            "value":{
+            "box":1,
+            "palletes":1
+            }
+        }
+    ],
+    "2024 - Diciembre":[
+        {
+            "name":"QUIMICA SUIZA S.A.C.",
+            "value":{
+            "box":178,
+            "palletes":48
+            }
+        },
+        {
+            "name":"H REPS SAC",
+            "value":{
+            "box":161,
+            "palletes":38
+            }
+        },
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":93,
+            "palletes":21
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":13,
+            "palletes":0
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU (PAP)",
+            "value":{
+            "box":1,
+            "palletes":1
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU (PAP KISQA)",
+            "value":{
+            "box":1,
+            "palletes":1
+            }
+        }
+    ],
+    "2025 - Enero":[
+        {
+            "name":"QUIMICA SUIZA S.A.C.",
+            "value":{
+            "box":1,
+            "palletes":1
+            }
+        },
+        {
+            "name":"REPRESENTACIONES DECO S.A.C.",
+            "value":{
+            "box":87,
+            "palletes":23
+            }
+        },
+        {
+            "name":"LABORATORIOS SIEGFRIED SAC",
+            "value":{
+            "box":64,
+            "palletes":0
+            }
+        },
+        {
+            "name":"H REPS SAC",
+            "value":{
+            "box":282,
+            "palletes":83
+            }
+        },
+        {
+            "name":"NOVARTIS BIOSCIENCES PERU (PAP)",
+            "value":{
+            "box":3,
+            "palletes":3
+            }
+        },
+        {
+            "name":"INRETAIL PHARMA S.A.",
+            "value":{
+            "box":41,
+            "palletes":3
+            }
+        },
+        {
+            "name":"QS CONSUMO SAC",
+            "value":{
+            "box":193,
+            "palletes":79
+            }
+        }
+    ]
+}
+const dataClients = {
+    "H REPS S.A.C.":[
+        {
+            "name":"2024 - Enero",
+            "value":{
+                "box":365,
+                "palletes":23
+            }
+        },
+        {
+            "name":"2024 - Febrero",
+            "value":{
+                "box":203,
+                "palletes":20
+            }
+        },
+        {
+            "name":"2024 - Marzo",
+            "value":{
+                "box":369,
+                "palletes":39
+            }
+        },
+        {
+            "name":"2024 - Abril",
+            "value":{
+                "box":300,
+                "palletes":45
+            }
+        },
+        {
+            "name":"2024 - Mayo",
+            "value":{
+                "box":247,
+                "palletes":24
+            }
+        },
+        {
+            "name":"2024 - Junio",
+            "value":{
+                "box":279,
+                "palletes":29
+            }
+        },
+        {
+            "name":"2024 - Julio",
+            "value":{
+                "box":119,
+                "palletes":16
+            }
+        },
+        {
+            "name":"2024 - Agosto",
+            "value":{
+                "box":263,
+                "palletes":53
+            }
+        },
+        {
+            "name":"2024 - Setiembre",
+            "value":{
+                "box":357,
+                "palletes":45
+            }
+        },
+        {
+            "name":"2024 - Octubre",
+            "value":{
+                "box":364,
+                "palletes":84
+            }
+        },
+        {
+            "name":"2024 - Noviembre",
+            "value":{
+                "box":310,
+                "palletes":32
+            }
+        },
+        {
+            "name":"2024 - Diciembre",
+            "value":{
+                "box":161,
+                "palletes":38
+            }
+        },
+        {
+            "name":"2025 - Enero",
+            "value":{
+                "box":282,
+                "palletes":83
+            }
+        }
+    ],
+    "Quimica Suiza S.A.C.":[
+        {
+            "name":"2024 - Enero",
+            "value":{
+                "box":451,
+                "palletes":92
+            }
+        },
+        {
+            "name":"2024 - Febrero",
+            "value":{
+                "box":326,
+                "palletes":140
+            }
+        },
+        {
+            "name":"2024 - Marzo",
+            "value":{
+                "box":319,
+                "palletes":73
+            }
+        },
+        {
+            "name":"2024 - Abril",
+            "value":{
+                "box":265,
+                "palletes":84
+            }
+        },
+        {
+            "name":"2024 - Mayo",
+            "value":{
+                "box":481,
+                "palletes":118
+            }
+        },
+        {
+            "name":"2024 - Junio",
+            "value":{
+                "box":158,
+                "palletes":45
+            }
+        },
+        {
+            "name":"2024 - Julio",
+            "value":{
+                "box":126,
+                "palletes":31
+            }
+        },
+        {
+            "name":"2024 - Agosto",
+            "value":{
+                "box":246,
+                "palletes":58
+            }
+        },
+        {
+            "name":"2024 - Setiembre",
+            "value":{
+                "box":253,
+                "palletes":119
+            }
+        },
+        {
+            "name":"2024 - Octubre",
+            "value":{
+                "box":296,
+                "palletes":90
+            }
+        },
+        {
+            "name":"2024 - Noviembre",
+            "value":{
+                "box":187,
+                "palletes":55
+            }
+        },
+        {
+            "name":"2024 - Diciembre",
+            "value":{
+                "box":178,
+                "palletes":48
+            }
+        },
+        {
+            "name":"2025 - Enero",
+            "value":{
+                "box":1,
+                "palletes":1
+            }
+        }
+    ],
+    "LABORATORIOS SIEGFRIED SAC":[
+        {
+            "name":"2024 - Enero",
+            "value":{
+                "box":49,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2024 - Febrero",
+            "value":{
+                "box":52,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2024 - Marzo",
+            "value":{
+                "box":61,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2024 - Abril",
+            "value":{
+                "box":52,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2024 - Mayo",
+            "value":{
+                "box":60,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2024 - Junio",
+            "value":{
+                "box":83,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2024 - Julio",
+            "value":{
+                "box":36,
+                "palletes":1
+            }
+        },
+        {
+            "name":"2024 - Agosto",
+            "value":{
+                "box":25,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2024 - Setiembre",
+            "value":{
+                "box":40,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2024 - Octubre",
+            "value":{
+                "box":41,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2024 - Noviembre",
+            "value":{
+                "box":32,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2024 - Diciembre",
+            "value":{
+                "box":13,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2025 - Enero",
+            "value":{
+                "box":64,
+                "palletes":0
+            }
+        }
+    ],
+    "REPRESENTACIONES DECO S.A.C.":[
+        {
+            "name":"2024 - Enero",
+            "value":{
+                "box":66,
+                "palletes":33
+            }
+        },
+        {
+            "name":"2024 - Febrero",
+            "value":{
+                "box":66,
+                "palletes":22
+            }
+        },
+        {
+            "name":"2024 - Marzo",
+            "value":{
+                "box":77,
+                "palletes":21
+            }
+        },
+        {
+            "name":"2024 - Abril",
+            "value":{
+                "box":103,
+                "palletes":23
+            }
+        },
+        {
+            "name":"2024 - Mayo",
+            "value":{
+                "box":92,
+                "palletes":43
+            }
+        },
+        {
+            "name":"2024 - Junio",
+            "value":{
+                "box":78,
+                "palletes":35
+            }
+        },
+        {
+            "name":"2024 - Julio",
+            "value":{
+                "box":78,
+                "palletes":22
+            }
+        },
+        {
+            "name":"2024 - Agosto",
+            "value":{
+                "box":109,
+                "palletes":33
+            }
+        },
+        {
+            "name":"2024 - Setiembre",
+            "value":{
+                "box":125,
+                "palletes":13
+            }
+        },
+        {
+            "name":"2024 - Octubre",
+            "value":{
+                "box":161,
+                "palletes":28
+            }
+        },
+        {
+            "name":"2024 - Noviembre",
+            "value":{
+                "box":50,
+                "palletes":13
+            }
+        },
+        {
+            "name":"2024 - Diciembre",
+            "value":{
+                "box":93,
+                "palletes":21
+            }
+        },
+        {
+            "name":"2025 - Enero",
+            "value":{
+                "box":87,
+                "palletes":23
+            }
+        }
+    ],
+    "NOVARTIS BIOSCIENCES PAP":[
+        {
+            "name":"2024 - Febrero",
+            "value":{
+                "box":1,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2024 - Marzo",
+            "value":{
+                "box":1,
+                "palletes":1
+            }
+        },
+        {
+            "name":"2024 - Abril",
+            "value":{
+                "box":1,
+                "palletes":0
+            }
+        },
+        {
+            "name":"2024 - Mayo",
+            "value":{
+                "box":1,
+                "palletes":1
+            }
+        },
+        {
+            "name":"2024 - Junio",
+            "value":{
+                "box":1,
+                "palletes":1
+            }
+        },
+        {
+            "name":"2024 - Julio",
+            "value":{
+                "box":2,
+                "palletes":1
+            }
+        },
+        {
+            "name":"2024 - Agosto",
+            "value":{
+                "box":2,
+                "palletes":2
+            }
+        },
+        {
+            "name":"2024 - Setiembre",
+            "value":{
+                "box":2,
+                "palletes":2
+            }
+        },
+        {
+            "name":"2024 - Octubre",
+            "value":{
+                "box":3,
+                "palletes":3
+            }
+        },
+        {
+            "name":"2024 - Noviembre",
+            "value":{
+                "box":1,
+                "palletes":1
+            }
+        },
+        {
+            "name":"2024 - Diciembre",
+            "value":{
+                "box":2,
+                "palletes":2
+            }
+        },
+        {
+            "name":"2025 - Enero",
+            "value":{
+                "box":3,
+                "palletes":3
+            }
+        }
+    ],
+    "INRETAIL PHARMA S.A.":[
+        {
+            "name":"2025 - Enero",
+            "value":{
+                "box":41,
+                "palletes":3
+            }
+        }
+    ],
+    "QS CONSUMO SAC":[
+        {
+            "name":"2025 - Enero",
+            "value":{
+                "box":193,
+                "palletes":79
+            }
+        }
+    ]
+}
 const defaultFilters = {
     "all": "",
     "month": "2024 - Enero",
@@ -432,8 +1456,8 @@ const optionsFilter = {
             "value":"H REPS S.A.C."
         },
         {
-            "name":"Quimica Suiza S.A.",
-            "value":"Quimica Suiza S.A."
+            "name":"Quimica Suiza S.A.C.",
+            "value":"Quimica Suiza S.A.C."
         },
         {
             "name":"LABORATORIOS SIEGFRIED SAC",
@@ -444,36 +1468,8 @@ const optionsFilter = {
             "value":"REPRESENTACIONES DECO S.A.C."
         },
         {
-            "name":"NOVARTIS BIOSCIENCES PERU",
-            "value":"NOVARTIS BIOSCIENCES PERU"
-        },
-        {
-            "name":"QUIMICA SUIZA S.A.C.",
-            "value":"QUIMICA SUIZA S.A.C."
-        },
-        {
-            "name":"Quimica Suiza S.A.C.",
-            "value":"Quimica Suiza S.A.C."
-        },
-        {
-            "name":"H REPS SAC",
-            "value":"H REPS SAC"
-        },
-        {
-            "name":"NOVARTIS BIOSCIENCES PERU (MAP. PAP)",
-            "value":"NOVARTIS BIOSCIENCES PERU (MAP. PAP)"
-        },
-        {
-            "name":"NOVARTIS BIOSCIENCES PERU (PAP KISQA)",
-            "value":"NOVARTIS BIOSCIENCES PERU (PAP KISQA)"
-        },
-        {
-            "name":"NOVARTIS BIOSCIENCES PERU (MAP JAKAVI)",
-            "value":"NOVARTIS BIOSCIENCES PERU (MAP JAKAVI)"
-        },
-        {
-            "name":"NOVARTIS BIOSCIENCES PERU (PAP)",
-            "value":"NOVARTIS BIOSCIENCES PERU (PAP)"
+            "name":"NOVARTIS BIOSCIENCES PAP",
+            "value":"NOVARTIS BIOSCIENCES PAP"
         },
         {
             "name":"INRETAIL PHARMA S.A.",
@@ -490,10 +1486,6 @@ const Dispatch = ({ typeFilter }) => {
 
     const [typeFilterTwo, setTypeFilerTwo] = useState("");
 
-    useEffect(() => {
-        setTypeFilerTwo(defaultFilters[typeFilter]);
-    },[]);
-
     switch (typeFilter) {
         case "month":
             return (
@@ -508,7 +1500,24 @@ const Dispatch = ({ typeFilter }) => {
                         </div> :
                         <></>
                     }
-                    <DispatchMonth />
+                    <DispatchMonth data={dataMonths[typeFilterTwo]} />
+                </>
+            )
+        
+        case "client":
+            return (
+                <>
+                    {typeFilter !== "all" ?
+                        <div className='w-full mt-6 p-3 flex items-center justify-between gap-x-4 rounded-lg bg-gray-three'>
+                            {optionsFilter[typeFilter].map(({ name, value }, index) => (
+                                <button key={"optionOcupability-" + index} className={cn('w-full p-2 text-center text-lg font-semibold rounded-lg transition-all duration-500 cursor-pointer hover:bg-white', typeFilterTwo == value ? "border bg-white border-black-two" : "bg-gray-two")} onClick={() => setTypeFilerTwo(value)}>
+                                    {name}
+                                </button>
+                            ))}
+                        </div> :
+                        <></>
+                    }
+                    <DispatchMonth data={dataClients[typeFilterTwo]} />
                 </>
             )
     

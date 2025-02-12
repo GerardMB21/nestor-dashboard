@@ -15,11 +15,11 @@ const data = [
     {
         "name":"2024 - Enero",
         "clients":{
-            "H REPS S.A.C.":{
+            "H REPS SAC":{
                 "box":365,
                 "palletes":23
             },
-            "Quimica Suiza S.A.":{
+            "Quimica Suiza SAC":{
                 "box":451,
                 "palletes":92
             },
@@ -27,7 +27,7 @@ const data = [
                 "box":49,
                 "palletes":0
             },
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC":{
                 "box":66,
                 "palletes":33
             }
@@ -36,7 +36,7 @@ const data = [
     {
         "name":"2024 - Febrero",
         "clients":{
-            "Quimica Suiza S.A.":{
+            "Quimica Suiza SAC":{
                 "box":326,
                 "palletes":140
             },
@@ -44,15 +44,15 @@ const data = [
                 "box":52,
                 "palletes":0
             },
-            "H REPS S.A.C.":{
+            "H REPS SAC.":{
                 "box":203,
                 "palletes":20
             },
-            "NOVARTIS BIOSCIENCES PERU":{
+            "NOVARTIS BIOSCIENCES PAP":{
                 "box":1,
                 "palletes":0
             },
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC.":{
                 "box":66,
                 "palletes":22
             }
@@ -61,7 +61,7 @@ const data = [
     {
         "name":"2024 - Marzo",
         "clients":{
-            "Quimica Suiza S.A.":{
+            "Quimica Suiza SAC":{
                 "box":319,
                 "palletes":73
             },
@@ -69,15 +69,15 @@ const data = [
                 "box":61,
                 "palletes":0
             },
-            "H REPS S.A.C.":{
+            "H REPS SAC.":{
                 "box":369,
                 "palletes":39
             },
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC.":{
                 "box":77,
                 "palletes":21
             },
-            "NOVARTIS BIOSCIENCES PERU":{
+            "NOVARTIS BIOSCIENCES PAP":{
                 "box":1,
                 "palletes":1
             }
@@ -86,7 +86,7 @@ const data = [
     {
         "name":"2024 - Abril",
         "clients":{
-            "Quimica Suiza S.A.":{
+            "Quimica Suiza SAC":{
                 "box":265,
                 "palletes":84
             },
@@ -94,15 +94,15 @@ const data = [
                 "box":52,
                 "palletes":0
             },
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC.":{
                 "box":103,
                 "palletes":23
             },
-            "H REPS S.A.C.":{
+            "H REPS SAC.":{
                 "box":300,
                 "palletes":45
             },
-            "NOVARTIS BIOSCIENCES PERU":{
+            "NOVARTIS BIOSCIENCES PAP":{
                 "box":1,
                 "palletes":0
             }
@@ -111,7 +111,7 @@ const data = [
     {
         "name":"2024 - Mayo",
         "clients":{
-            "Quimica Suiza S.A.":{
+            "Quimica Suiza SAC":{
                 "box":481,
                 "palletes":118
             },
@@ -119,15 +119,15 @@ const data = [
                 "box":60,
                 "palletes":0
             },
-            "H REPS S.A.C.":{
+            "H REPS SAC.":{
                 "box":247,
                 "palletes":24
             },
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC.":{
                 "box":92,
                 "palletes":43
             },
-            "NOVARTIS BIOSCIENCES PERU":{
+            "NOVARTIS BIOSCIENCES PAP":{
                 "box":1,
                 "palletes":1
             }
@@ -136,27 +136,23 @@ const data = [
     {
         "name":"2024 - Junio",
         "clients":{
-            "QUIMICA SUIZA S.A.C.":{
-                "box":109,
-                "palletes":40
-            },
-            "Quimica Suiza S.A.C.":{
-                "box":49,
-                "palletes":5
+            "Quimica Suiza SAC":{
+                "box":158,
+                "palletes":45
             },
             "LABORATORIOS SIEGFRIED SAC":{
                 "box":83,
                 "palletes":0
             },
-            "H REPS SAC":{
+            "H REPS SAC.":{
                 "box":279,
                 "palletes":29
             },
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC.":{
                 "box":78,
                 "palletes":35
             },
-            "NOVARTIS BIOSCIENCES PERU":{
+            "NOVARTIS BIOSCIENCES PAP":{
                 "box":1,
                 "palletes":1
             }
@@ -165,27 +161,23 @@ const data = [
     {
         "name":"2024 - Julio",
         "clients":{
-            "H REPS SAC":{
+            "H REPS SAC.":{
                 "box":119,
                 "palletes":16
             },
-            "Quimica Suiza S.A.C.":{
-                "box":28,
-                "palletes":8
+            "Quimica Suiza SAC":{
+                "box":126,
+                "palletes":31
             },
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC.":{
                 "box":78,
                 "palletes":22
-            },
-            "QUIMICA SUIZA S.A.C.":{
-                "box":98,
-                "palletes":23
             },
             "LABORATORIOS SIEGFRIED SAC":{
                 "box":36,
                 "palletes":1
             },
-            "NOVARTIS BIOSCIENCES PERU (MAP. PAP)":{
+            "NOVARTIS BIOSCIENCES PAP":{
                 "box":2,
                 "palletes":1
             }
@@ -194,15 +186,11 @@ const data = [
     {
         "name":"2024 - Agosto",
         "clients":{
-            "QUIMICA SUIZA S.A.C.":{
-                "box":116,
-                "palletes":36
-            },
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC.":{
                 "box":109,
                 "palletes":33
             },
-            "H REPS SAC":{
+            "H REPS SAC.":{
                 "box":263,
                 "palletes":53
             },
@@ -210,32 +198,28 @@ const data = [
                 "box":25,
                 "palletes":0
             },
-            "NOVARTIS BIOSCIENCES PERU (PAP KISQA)":{
+            "NOVARTIS BIOSCIENCES PAP":{
                 "box":2,
                 "palletes":2
             },
-            "Quimica Suiza S.A.C.":{
-                "box":130,
-                "palletes":22
+            "Quimica Suiza SAC":{
+                "box":246,
+                "palletes":58
             }
         }
     },
     {
         "name":"2024 - Setiembre",
         "clients":{
-            "QUIMICA SUIZA S.A.C.":{
-                "box":192,
-                "palletes":99
+            "Quimica Suiza SAC":{
+                "box":253,
+                "palletes":119
             },
-            "Quimica Suiza S.A.C.":{
-                "box":61,
-                "palletes":20
-            },
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC.":{
                 "box":125,
                 "palletes":13
             },
-            "H REPS SAC":{
+            "H REPS SAC.":{
                 "box":357,
                 "palletes":45
             },
@@ -243,40 +227,32 @@ const data = [
                 "box":40,
                 "palletes":0
             },
-            "NOVARTIS BIOSCIENCES PERU (PAP KISQA)":{
-                "box":1,
-                "palletes":1
+            "NOVARTIS BIOSCIENCES PAP":{
+                "box":2,
+                "palletes":2
             },
-            "NOVARTIS BIOSCIENCES PERU (MAP JAKAVI)":{
-                "box":1,
-                "palletes":1
-            }
         }
     },
     {
         "name":"2024 - Octubre",
         "clients":{
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC.":{
                 "box":161,
                 "palletes":28
-            },
-            "QUIMICA SUIZA S.A.C.":{
-                "box":87,
-                "palletes":33
             },
             "LABORATORIOS SIEGFRIED SAC":{
                 "box":41,
                 "palletes":0
             },
-            "H REPS SAC":{
+            "H REPS SAC.":{
                 "box":364,
                 "palletes":84
             },
-            "Quimica Suiza S.A.C.":{
-                "box":209,
-                "palletes":57
+            "Quimica Suiza SAC":{
+                "box":296,
+                "palletes":90
             },
-            "NOVARTIS BIOSCIENCES PERU (PAP)":{
+            "NOVARTIS BIOSCIENCES PAP":{
                 "box":3,
                 "palletes":3
             }
@@ -285,27 +261,23 @@ const data = [
     {
         "name":"2024 - Noviembre",
         "clients":{
-            "QUIMICA SUIZA S.A.C.":{
-                "box":147,
-                "palletes":53
-            },
             "LABORATORIOS SIEGFRIED SAC":{
                 "box":32,
                 "palletes":0
             },
-            "H REPS SAC":{
+            "H REPS SAC.":{
                 "box":310,
                 "palletes":32
             },
-            "Quimica Suiza S.A.C.":{
-                "box":40,
-                "palletes":2
+            "Quimica Suiza SAC":{
+                "box":187,
+                "palletes":55
             },
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC.":{
                 "box":50,
                 "palletes":13
             },
-            "NOVARTIS BIOSCIENCES PERU (PAP)":{
+            "NOVARTIS BIOSCIENCES PAP":{
                 "box":1,
                 "palletes":1
             }
@@ -314,15 +286,15 @@ const data = [
     {
         "name":"2024 - Diciembre",
         "clients":{
-            "QUIMICA SUIZA S.A.C.":{
+            "Quimica Suiza SAC":{
                 "box":178,
                 "palletes":48
             },
-            "H REPS SAC":{
+            "H REPS SAC.":{
                 "box":161,
                 "palletes":38
             },
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC.":{
                 "box":93,
                 "palletes":21
             },
@@ -330,24 +302,20 @@ const data = [
                 "box":13,
                 "palletes":0
             },
-            "NOVARTIS BIOSCIENCES PERU (PAP)":{
-                "box":1,
-                "palletes":1
+            "NOVARTIS BIOSCIENCES PAP":{
+                "box":2,
+                "palletes":2
             },
-            "NOVARTIS BIOSCIENCES PERU (PAP KISQA)":{
-                "box":1,
-                "palletes":1
-            }
         }
     },
     {
         "name":"2025 - Enero",
         "clients":{
-            "QUIMICA SUIZA S.A.C.":{
+            "Quimica Suiza SAC":{
                 "box":1,
                 "palletes":1
             },
-            "REPRESENTACIONES DECO S.A.C.":{
+            "REPRESENTACIONES DECO SAC.":{
                 "box":87,
                 "palletes":23
             },
@@ -355,15 +323,15 @@ const data = [
                 "box":64,
                 "palletes":0
             },
-            "H REPS SAC":{
+            "H REPS SAC.":{
                 "box":282,
                 "palletes":83
             },
-            "NOVARTIS BIOSCIENCES PERU (PAP)":{
+            "NOVARTIS BIOSCIENCES PAP":{
                 "box":3,
                 "palletes":3
             },
-            "INRETAIL PHARMA S.A.":{
+            "INRETAIL PHARMA SA":{
                 "box":41,
                 "palletes":3
             },
@@ -375,68 +343,40 @@ const data = [
     }
 ]
 const clientsBox = [
-    "clients.H REPS S.A.C..box",
-    "clients.Quimica Suiza S.A..box",
-    "clients.LABORATORIOS SIEGFRIED SAC.box",
-    "clients.REPRESENTACIONES DECO S.A.C..box",
-    "clients.NOVARTIS BIOSCIENCES PERU.box",
-    "clients.QUIMICA SUIZA S.A.C..box",
-    "clients.Quimica Suiza S.A.C..box",
     "clients.H REPS SAC.box",
-    "clients.NOVARTIS BIOSCIENCES PERU (MAP. PAP).box",
-    "clients.NOVARTIS BIOSCIENCES PERU (PAP KISQA).box",
-    "clients.NOVARTIS BIOSCIENCES PERU (MAP JAKAVI).box",
-    "clients.NOVARTIS BIOSCIENCES PERU (PAP).box",
-    "clients.INRETAIL PHARMA S.A..box",
+    "clients.Quimica Suiza SAC.box",
+    "clients.LABORATORIOS SIEGFRIED SAC.box",
+    "clients.REPRESENTACIONES DECO SAC.box",
+    "clients.NOVARTIS BIOSCIENCES PAP.box",
+    "clients.INRETAIL PHARMA SA.box",
     "clients.QS CONSUMO SAC.box"
 ]
 const clientPalletes = [
-    "clients.H REPS S.A.C..palletes",
-    "clients.Quimica Suiza S.A..palletes",
-    "clients.LABORATORIOS SIEGFRIED SAC.palletes",
-    "clients.REPRESENTACIONES DECO S.A.C..palletes",
-    "clients.NOVARTIS BIOSCIENCES PERU.palletes",
-    "clients.QUIMICA SUIZA S.A.C..palletes",
-    "clients.Quimica Suiza S.A.C..palletes",
     "clients.H REPS SAC.palletes",
-    "clients.NOVARTIS BIOSCIENCES PERU (MAP. PAP).palletes",
-    "clients.NOVARTIS BIOSCIENCES PERU (PAP KISQA).palletes",
-    "clients.NOVARTIS BIOSCIENCES PERU (MAP JAKAVI).palletes",
-    "clients.NOVARTIS BIOSCIENCES PERU (PAP).palletes",
-    "clients.INRETAIL PHARMA S.A..palletes",
+    "clients.Quimica Suiza SAC.palletes",
+    "clients.LABORATORIOS SIEGFRIED SAC.palletes",
+    "clients.REPRESENTACIONES DECO SAC.palletes",
+    "clients.NOVARTIS BIOSCIENCES PAP.palletes",
+    "clients.INRETAIL PHARMA SA.palletes",
     "clients.QS CONSUMO SAC.palletes"
 ]
 
 const colorsClientsBox = {
-    "clients.H REPS S.A.C..box": "#264478",
-    "clients.Quimica Suiza S.A..box": "#A5A5A5",
-    "clients.LABORATORIOS SIEGFRIED SAC.box": "#ED7D31",
-    "clients.REPRESENTACIONES DECO S.A.C..box": "#636363",
-    "clients.NOVARTIS BIOSCIENCES PERU.box": "#9E480E",
-    "clients.QUIMICA SUIZA S.A.C..box": "#5B9BD5",
-    "clients.Quimica Suiza S.A.C..box": "#70AD47",
     "clients.H REPS SAC.box": "#264478",
-    "clients.NOVARTIS BIOSCIENCES PERU (MAP. PAP).box": "#997300",
-    "clients.NOVARTIS BIOSCIENCES PERU (PAP KISQA).box": "#161f35",
-    "clients.NOVARTIS BIOSCIENCES PERU (MAP JAKAVI).box": "#ffd700",
-    "clients.NOVARTIS BIOSCIENCES PERU (PAP).box": "#ff9e00",
-    "clients.INRETAIL PHARMA S.A..box": "#e61919",
+    "clients.Quimica Suiza SAC.box": "#A5A5A5",
+    "clients.LABORATORIOS SIEGFRIED SAC.box": "#ED7D31",
+    "clients.REPRESENTACIONES DECO SAC.box": "#636363",
+    "clients.NOVARTIS BIOSCIENCES PAP.box": "#9E480E",
+    "clients.INRETAIL PHARMA SA.box": "#e61919",
     "clients.QS CONSUMO SAC.box": "#08457e"
 }
 const colorsClientsPalletes = {
-    "clients.H REPS S.A.C..palletes": "#264478",
-    "clients.Quimica Suiza S.A..palletes": "#A5A5A5",
-    "clients.LABORATORIOS SIEGFRIED SAC.palletes": "#ED7D31",
-    "clients.REPRESENTACIONES DECO S.A.C..palletes": "#636363",
-    "clients.NOVARTIS BIOSCIENCES PERU.palletes": "#9E480E",
-    "clients.QUIMICA SUIZA S.A.C..palletes": "#5B9BD5",
-    "clients.Quimica Suiza S.A.C..palletes": "#70AD47",
     "clients.H REPS SAC.palletes": "#264478",
-    "clients.NOVARTIS BIOSCIENCES PERU (MAP. PAP).palletes": "#997300",
-    "clients.NOVARTIS BIOSCIENCES PERU (PAP KISQA).palletes": "#161f35",
-    "clients.NOVARTIS BIOSCIENCES PERU (MAP JAKAVI).palletes": "#ffd700",
-    "clients.NOVARTIS BIOSCIENCES PERU (PAP).palletes": "#ff9e00",
-    "clients.INRETAIL PHARMA S.A..palletes": "#e61919",
+    "clients.Quimica Suiza SAC.palletes": "#A5A5A5",
+    "clients.LABORATORIOS SIEGFRIED SAC.palletes": "#ED7D31",
+    "clients.REPRESENTACIONES DECO SAC.palletes": "#636363",
+    "clients.NOVARTIS BIOSCIENCES PAP.palletes": "#9E480E",
+    "clients.INRETAIL PHARMA SA.palletes": "#e61919",
     "clients.QS CONSUMO SAC.palletes": "#08457e"
 }
 
@@ -468,6 +408,48 @@ const CustomTotalLabel = ({ x, y, width, value }) => {
         </text>
     );
 };
+const CustomTooltip = ({ active, payload }) => {
+    if (active && payload && payload.length) {
+        const listBox = []
+        const listPalletes = []
+        let box = 0
+        let palletes = 0
+
+        for (let i = 0; i < payload.length; i++) {
+            const element = payload[i];
+            const keys = element.name.split(".")
+
+            if (keys[2] == "box") {
+                listBox.push(<p className="text-lg font-semibold" style={{ color: element.color }}>{keys[1]}: <strong>{element.value}</strong></p>)
+                box = box + element.value
+            }
+
+            if (keys[2] == "palletes") {
+                listPalletes.push(<p className="text-lg font-semibold" style={{ color: element.color }}>{keys[1]}: <strong>{element.value}</strong></p>)
+                palletes = palletes + element.value
+            }
+        }
+
+        return (
+        <div style={{ background: "white", padding: 10, border: "1px solid #ccc" }}>
+            <p className="text-2xl font-semibold mb-4">
+                <strong>{payload[0].payload.name}</strong>
+            </p>
+            <p className="text-2xl my-4">Total Cajas: <strong>{box}</strong></p>
+            <p className="text-2xl my-4">Total Paletas: <strong>{palletes}</strong></p>
+            <div className="my-4">
+                <p className="text-xl font-semibold">Cajas:</p>
+                {listBox}
+            </div>
+            <div className="my-4">
+                <p className="text-xl font-semibold">Paletas:</p>
+                {listPalletes}
+            </div>
+        </div>
+        );
+    }
+    return null;
+};
 
 const DispatchAll = () => {
     return (
@@ -487,7 +469,7 @@ const DispatchAll = () => {
                 <XAxis dataKey={"name"} />
                 <YAxis />
 
-                <Tooltip />
+                <Tooltip content={<CustomTooltip />} />
                 <Legend />
 
                 {clientsBox.map((i, index) => (

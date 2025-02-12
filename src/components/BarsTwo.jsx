@@ -24,10 +24,10 @@ const optionsDashboard = [
         name: "Cantidad Ocupada",
         value: "QUANTITY"
     },
-    // {
-    //     name: "Cajas y Paletas despachadas",
-    //     value: "BOX_PALLETES"
-    // },
+    {
+        name: "Cajas y Paletas despachadas",
+        value: "BOX_PALLETES"
+    },
 ]
 
 const BarsTwo = () => {
