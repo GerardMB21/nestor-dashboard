@@ -1156,39 +1156,39 @@ const optionsAROC = [
    {
       name: "Actas",
       value: [
-         "AR_seco.process",
-         "AR_refrigeration.process"
+         "AR_seco",
+         "AR_refrigeration"
       ]
    },
    {
       name: "Actas Seco",
       value: [
-         "AR_seco.process"
+         "AR_seco"
       ]
    },
    {
       name: "Actas Refrigerado",
       value: [
-         "AR_refrigeration.process"
+         "AR_refrigeration"
       ]
    },
    {
       name: "OC",
       value: [
-         "OC_seco.process",
-         "OC_refrigeration.process"
+         "OC_seco",
+         "OC_refrigeration"
       ]
    },
    {
       name: "OC Seco",
       value: [
-         "OC_seco.process",
+         "OC_seco",
       ]
    },
    {
       name: "OC Refrigerado",
       value: [
-         "OC_refrigeration.process",
+         "OC_refrigeration",
       ]
    },
 ]
@@ -1233,20 +1233,36 @@ const optionsOcupability = [
       name: "Mat Embalaje",
       value: "Mat Embalaje"
    },
+   {
+      name: "Cuarentena Controlados",
+      value: "Cuarentena Controlados"
+   },
+   {
+      name: "Cuarentena Material de empaque",
+      value: "Cuarentena Material de empaque"
+   },
+   {
+      name: "MM Cuarentena",
+      value: "MM Cuarentena"
+   },
 ]
 const optionsUnity = [
-   {
-      name: "Unidades / Cajas",
-      value: "todos"
-   },
-   {
-      name: "Total Unidades",
-      value: "quantity"
-   },
-   {
-      name: "Total Cajas",
-      value: "box"
-   },
+    // {
+    //     name: "Unidades / Cajas",
+    //     value: "todos"
+    // },
+    {
+        name: "Total Unidades",
+        value: "quantity"
+    },
+    {
+        name: "Total Palletes",
+        value: "palletes"
+    },
+    {
+        name: "Total Cajas",
+        value: "box"
+    },
 ]
 const optionsDeteriorado = [
    {
@@ -1416,7 +1432,7 @@ const CustomTooltipTrash = ({ active, payload }) => {
    return null;
 };
 
-const GroupBars = ({ type }) => {
+const GroupBars = ({ type, yearSelected }) => {
    const [typeAROC, setTypeAROC] = useState(["Todos"]);
    const [typeO, setTypeO] = useState("Todos");
    const [typeUnity, setTypeUnity] = useState("quantity");
@@ -1436,7 +1452,7 @@ const GroupBars = ({ type }) => {
                   ))}
                </div>
 
-               <ActasOC typeAROC={typeAROC} />
+               <ActasOC typeAROC={typeAROC} yearSelected={yearSelected} />
             </div>
          );
 
@@ -1452,7 +1468,7 @@ const GroupBars = ({ type }) => {
                   ))}
                </div>
 
-               <UnityBox typeUnity={typeUnity} />
+               <UnityBox typeUnity={typeUnity} yearSelected={yearSelected} />
             </div>
          );
 
@@ -1468,7 +1484,7 @@ const GroupBars = ({ type }) => {
                   ))}
                </div>
 
-               <Deteriorado typeDeteriorado={typeDeteriorado} />
+               <Deteriorado typeDeteriorado={typeDeteriorado} yearSelected={yearSelected} />
             </div>
          );
 
@@ -1478,19 +1494,19 @@ const GroupBars = ({ type }) => {
 
                <div className='w-full p-3 flex items-center justify-between gap-x-4 rounded-lg bg-gray-three'>
                   {optionsOcupability.map(({ name, value }, index) => (
-                     <button key={"optionOcupability-" + index} className={cn('w-full p-2 text-center text-lg font-semibold rounded-lg transition-all duration-500 cursor-pointer hover:bg-white', typeO == value ? "border bg-white border-black-two" : "bg-gray-two")} onClick={() => setTypeO(value)}>
+                     <button key={"optionOcupability-" + index} className={cn('w-full p-2 text-center text-base font-semibold rounded-lg transition-all duration-500 cursor-pointer hover:bg-white', typeO == value ? "border bg-white border-black-two" : "bg-gray-two")} onClick={() => setTypeO(value)}>
                            {name}
                      </button>
                   ))}
                </div>
 
-               <Ocupability typeO={typeO} />
+               <Ocupability typeO={typeO} yearSelected={yearSelected} />
             </div>
          );
 
       case "QUANTITY":
          return (
-            <QuantityOcupability />
+            <QuantityOcupability yearSelected={yearSelected} />
          );
 
       case "BOX_PALLETES":
@@ -1505,7 +1521,7 @@ const GroupBars = ({ type }) => {
                   ))}
                </div>
 
-               <Dispatch typeFilter={typeFilter} />
+               <Dispatch typeFilter={typeFilter} yearSelected={yearSelected} />
             </div>
          );
 

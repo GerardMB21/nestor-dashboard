@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import {
     Bar,
     XAxis,
@@ -11,37 +12,37 @@ import {
     ComposedChart,
 } from "recharts";
 
-const dataAROC = [
+let dataAROC = [
     {
         name: "2024 - Enero",
         quantity: 39967,
         AR_refrigeration: {
-        process: 1,
-        quantity: 199,
-        box: 7,
-        rest: 3,
-        capacity: 28,
+            process: 1,
+            quantity: 199,
+            box: 7,
+            rest: 3,
+            capacity: 28,
         },
         AR_seco: {
-        process: 14,
-        quantity: 39768,
-        box: 297,
-        rest: 1151,
-        capacity: 2649,
+            process: 14,
+            quantity: 39768,
+            box: 297,
+            rest: 1151,
+            capacity: 2649,
         },
         OC_refrigeration: {
-        process: 1,
-        quantity: 199,
-        box: 7,
-        rest: 3,
-        capacity: 28,
+            process: 1,
+            quantity: 199,
+            box: 7,
+            rest: 3,
+            capacity: 28,
         },
         OC_seco: {
-        process: 14,
-        quantity: 39768,
-        box: 297,
-        rest: 1151,
-        capacity: 2649,
+            process: 14,
+            quantity: 39768,
+            box: 297,
+            rest: 1151,
+            capacity: 2649,
         },
     },
     {
@@ -429,6 +430,120 @@ const dataAROC = [
         },
     },
 ];
+dataAROC = [
+    {
+        "name": "2024 - Enero",
+        "quantity": 39967,
+        "AR_seco": 14,
+        "AR_refrigeration": 1,
+        "OC_seco": 14,
+        "OC_refrigeration": 1
+    },
+    {
+        "name": "2024 - Febrero",
+        "quantity": 56437,
+        "AR_seco": 25,
+        "AR_refrigeration": 2,
+        "OC_seco": 23,
+        "OC_refrigeration": 2
+    },
+    {
+        "name": "2024 - Marzo",
+        "quantity": 61977,
+        "AR_seco": 15,
+        "AR_refrigeration": 0,
+        "OC_seco": 15,
+        "OC_refrigeration": 0
+    },
+    {
+        "name": "2024 - Abril",
+        "quantity": 26659,
+        "AR_seco": 13,
+        "AR_refrigeration": 0,
+        "OC_seco": 12,
+        "OC_refrigeration": 0
+    },
+    {
+        "name": "2024 - Mayo",
+        "quantity": 41219,
+        "AR_seco": 13,
+        "AR_refrigeration": 8,
+        "OC_seco": 13,
+        "OC_refrigeration": 6
+    },
+    {
+        "name": "2024 - Junio",
+        "quantity": 59021,
+        "AR_seco": 14,
+        "AR_refrigeration": 2,
+        "OC_seco": 13,
+        "OC_refrigeration": 2
+    },
+    {
+        "name": "2024 - Julio",
+        "quantity": 48892,
+        "AR_seco": 17,
+        "AR_refrigeration": 1,
+        "OC_seco": 17,
+        "OC_refrigeration": 1
+    },
+    {
+        "name": "2024 - Agosto",
+        "quantity": 39086,
+        "AR_seco": 14,
+        "AR_refrigeration": 1,
+        "OC_seco": 14,
+        "OC_refrigeration": 1
+    },
+    {
+        "name": "2024 - Setiembre",
+        "quantity": 63342,
+        "AR_seco": 14,
+        "AR_refrigeration": 0,
+        "OC_seco": 11,
+        "OC_refrigeration": 0
+    },
+    {
+        "name": "2024 - Octubre",
+        "quantity": 55708,
+        "AR_seco": 21,
+        "AR_refrigeration": 1,
+        "OC_seco": 18,
+        "OC_refrigeration": 1
+    },
+    {
+        "name": "2024 - Noviembre",
+        "quantity": 18359,
+        "AR_seco": 7,
+        "AR_refrigeration": 0,
+        "OC_seco": 7,
+        "OC_refrigeration": 0
+    },
+    {
+        "name": "2024 - Diciembre",
+        "quantity": 61508,
+        "AR_seco": 19,
+        "AR_refrigeration": 2,
+        "OC_seco": 17,
+        "OC_refrigeration": 2
+    },
+    {
+        "name": "2025 - Enero",
+        "quantity": 60404,
+        "AR_seco": 23,
+        "AR_refrigeration": 3,
+        "OC_seco": 21,
+        "OC_refrigeration": 3
+    },
+    {
+        "name": "2025 - Febrero",
+        "quantity": 20833,
+        "AR_seco": 9,
+        "AR_refrigeration": 2,
+        "OC_seco": 8,
+        "OC_refrigeration": 2
+    }
+];
 
 const optionsOcupability = [
     {
@@ -474,24 +589,24 @@ const optionsOcupability = [
 ]
 
 const colorsAROC = {
-    "AR_seco.process": "#146eb8",
-    "AR_refrigeration.process": "#ff9e00",
-    "OC_seco.process": "#146eb8",
-    "OC_refrigeration.process": "#ff9e00",
+    "AR_seco": "#146eb8",
+    "AR_refrigeration": "#ff9e00",
+    "OC_seco": "#146eb8",
+    "OC_refrigeration": "#ff9e00",
 }
 
 function getNameParse(name) {
     switch (name) {
-        case "AR_seco.process":
+        case "AR_seco":
         return "AR Seco";
 
-        case "AR_refrigeration.process":
+        case "AR_refrigeration":
         return "AR Refrigeración";
 
-        case "OC_seco.process":
+        case "OC_seco":
         return "OC Seco";
 
-        case "OC_refrigeration.process":
+        case "OC_refrigeration":
         return "OC Refrigeración";
 
         default:
@@ -532,40 +647,20 @@ const CustomTotalLabel = ({ x, y, width, value }) => {
 
 const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
-        let quantitySeco = 0;
-        let quantityRefrigeration = 0;
-
         const list = payload.map((entry, index) => {
-        const keys = entry.dataKey.split(".");
-        const principalKey = keys[0];
-
-        if (principalKey.includes("seco")) {
-            quantitySeco = quantitySeco + entry.payload[principalKey].quantity;
-        } else if (principalKey.includes("refrigeration")) {
-            quantityRefrigeration =
-            quantityRefrigeration + entry.payload[principalKey].quantity;
-        }
-
-        return (
-            <p key={index} style={{ color: entry.color }}>
-            {getNameParse(entry.name)}: {entry.value}
-            </p>
-        );
+            return (
+                <p key={index} style={{ color: entry.color }}>
+                    {getNameParse(entry.name)}: {entry.value}
+                </p>
+            );
         });
 
-        return (
-        <div
-            style={{ background: "white", padding: 10, border: "1px solid #ccc" }}
-        >
+        return (<div style={{ background: "white", padding: 10, border: "1px solid #ccc" }}>
             <p>
-            <strong>{payload[0].payload.name}</strong>
+                <strong>{payload[0].payload.name}</strong>
             </p>
-            <p>Total Unidades: {(quantitySeco + quantityRefrigeration) / 2}</p>
-            <p>Total Unidades Seco: {quantitySeco / 2}</p>
-            <p>Total Unidades Refrigerado: {quantityRefrigeration / 2}</p>
             {list}
-        </div>
-        );
+        </div>);
     }
     return null;
 };
@@ -620,19 +715,28 @@ const CustomTooltipTrash = ({ active, payload }) => {
     return null;
 };
 
-const ActasOC = ({ typeAROC }) => {
+const ActasOC = ({ typeAROC, yearSelected }) => {
+
+    const [dataFilter, setDataFilter] = useState(dataAROC);
+
+    useEffect(() => {
+        const dataFilter = dataAROC.filter(i => i.name.includes(yearSelected));
+
+        setDataFilter(dataFilter);
+    },[yearSelected]);
+
     if (typeAROC.length >= 2) {
         return (
             <ResponsiveContainer width="98%" height="85%">
                 <ComposedChart
                     width={500}
                     height={300}
-                    data={dataAROC}
+                    data={dataFilter}
                     margin={{
-                    top: 20,
-                    right: 30,
-                    left: 20,
-                    bottom: 5,
+                        top: 20,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
                     }}
                 >
                     <CartesianGrid strokeDasharray="3 3" />
@@ -669,12 +773,12 @@ const ActasOC = ({ typeAROC }) => {
                         <ComposedChart
                             width={500}
                             height={300}
-                            data={dataAROC}
+                            data={dataFilter}
                             margin={{
-                            top: 20,
-                            right: 30,
-                            left: 20,
-                            bottom: 5,
+                                top: 20,
+                                right: 30,
+                                left: 20,
+                                bottom: 5,
                             }}
                         >
                             <CartesianGrid strokeDasharray="3 3" />
@@ -684,35 +788,35 @@ const ActasOC = ({ typeAROC }) => {
                             <Tooltip content={<CustomTooltip />} />
                             <Legend />
             
-                            <Bar dataKey="AR_seco.process" stackId="ar" fill="#146eb8">
-                                <LabelList dataKey="AR_seco.process" content={CustomLabel} />
+                            <Bar dataKey="AR_seco" stackId="ar" fill="#146eb8">
+                                <LabelList dataKey="AR_seco" content={CustomLabel} />
                             </Bar>
-                            <Bar dataKey="AR_refrigeration.process" stackId="ar" fill="#ff9e00">
+                            <Bar dataKey="AR_refrigeration" stackId="ar" fill="#ff9e00">
                                 <LabelList
-                                    dataKey="AR_refrigeration.process"
+                                    dataKey="AR_refrigeration"
                                     content={CustomLabel}
                                 />
                                 <LabelList
                                     data={dataAROC.map((d) => ({
                                         name: d.name,
-                                        value: d.AR_seco.process + d.AR_refrigeration.process,
+                                        value: d.AR_seco + d.AR_refrigeration,
                                     }))}
                                     content={<CustomTotalLabel />}
                                 />
                             </Bar>
             
-                            <Bar dataKey="OC_seco.process" stackId="oc" fill="#146eb8">
-                                <LabelList dataKey="OC_seco.process" content={CustomLabel} />
+                            <Bar dataKey="OC_seco" stackId="oc" fill="#146eb8">
+                                <LabelList dataKey="OC_seco" content={CustomLabel} />
                             </Bar>
-                            <Bar dataKey="OC_refrigeration.process" stackId="oc" fill="#ff9e00">
+                            <Bar dataKey="OC_refrigeration" stackId="oc" fill="#ff9e00">
                                 <LabelList
-                                    dataKey="OC_refrigeration.process"
+                                    dataKey="OC_refrigeration"
                                     content={CustomLabel}
                                 />
                                 <LabelList
                                     data={dataAROC.map((d) => ({
                                         name: d.name,
-                                        value: d.OC_seco.process + d.OC_refrigeration.process,
+                                        value: d.OC_seco + d.OC_refrigeration,
                                     }))}
                                     content={<CustomTotalLabel />}
                                 />
@@ -727,12 +831,12 @@ const ActasOC = ({ typeAROC }) => {
                         <ComposedChart
                             width={500}
                             height={300}
-                            data={dataAROC}
+                            data={dataFilter}
                             margin={{
-                            top: 20,
-                            right: 30,
-                            left: 20,
-                            bottom: 5,
+                                top: 20,
+                                right: 30,
+                                left: 20,
+                                bottom: 5,
                             }}
                         >
                             <CartesianGrid strokeDasharray="3 3" />

@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import {
     Bar,
     XAxis,
@@ -12,7 +13,7 @@ import {
 } from "recharts";
 
 
-const dataQuantityOcupability = [
+let dataQuantityOcupability = [
     {
         "name":"2024 - Enero",
         "quantity":387
@@ -60,6 +61,64 @@ const dataQuantityOcupability = [
     {
         "name":"2025 - Enero",
         "quantity":322
+    }
+];
+dataQuantityOcupability = [
+    {
+        "name": "2024 - Enero",
+        "quantity": 387
+    },
+    {
+        "name": "2024 - Febrero",
+        "quantity": 365
+    },
+    {
+        "name": "2024 - Marzo",
+        "quantity": 368
+    },
+    {
+        "name": "2024 - Abril",
+        "quantity": 343
+    },
+    {
+        "name": "2024 - Mayo",
+        "quantity": 335
+    },
+    {
+        "name": "2024 - Junio",
+        "quantity": 360
+    },
+    {
+        "name": "2024 - Julio",
+        "quantity": 364
+    },
+    {
+        "name": "2024 - Agosto",
+        "quantity": 373
+    },
+    {
+        "name": "2024 - Setiembre",
+        "quantity": 370
+    },
+    {
+        "name": "2024 - Octubre",
+        "quantity": 356
+    },
+    {
+        "name": "2024 - Noviembre",
+        "quantity": 348
+    },
+    {
+        "name": "2024 - Diciembre",
+        "quantity": 327
+    },
+    {
+        "name": "2025 - Enero",
+        "quantity": 322
+    },
+    {
+        "name": "2025 - Febrero",
+        "quantity": 317
     }
 ];
 const line = {
@@ -116,13 +175,28 @@ const CustomTooltip = ({ active, payload }) => {
     return null;
 };
 
-const QuantityOcupability = () => {
+const QuantityOcupability = ({yearSelected}) => {
+
+    const [dataFilter, setDataFilter] = useState(dataQuantityOcupability);
+    const [dataFilterLine, setDataFilterLine] = useState(line);
+
+    useEffect(() => {
+        const dataFilter = dataQuantityOcupability.filter(i => i.name.includes(yearSelected));
+        const dataFilterLine = {
+            ...line,
+            data: dataFilter
+        }
+
+        setDataFilter(dataFilter);
+        setDataFilterLine(dataFilterLine);
+    },[yearSelected]);
+
     return (
         <ResponsiveContainer width="98%" height="85%">
             <ComposedChart
                 width={500}
                 height={300}
-                data={dataQuantityOcupability}
+                data={dataFilter}
                 margin={{
                     top: 20,
                     right: 30,
@@ -147,9 +221,9 @@ const QuantityOcupability = () => {
                     type="monotone"
                     strokeWidth={4}
                     dataKey="quantity"
-                    data={line.data}
-                    name={line.name}
-                    key={line.name}
+                    data={dataFilterLine.data}
+                    name={dataFilterLine.name}
+                    key={dataFilterLine.name}
                 />
             </ComposedChart>
         </ResponsiveContainer>

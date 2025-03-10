@@ -366,7 +366,7 @@ const data = [
         }
     }
 ]
-const dataMonths = {
+let dataMonths = {
     "2024 - Enero":[
         {
             "name":"H REPS S.A.C.",
@@ -912,480 +912,1370 @@ const dataMonths = {
         }
     ]
 }
+dataMonths = {
+    "2024 - Enero": [
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 365,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 23
+            }
+        },
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 451,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 92
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 49,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 66,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 33
+            }
+        }
+    ],
+    "2024 - Febrero": [
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 326,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 140
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 52,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 203,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 20
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 66,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 22
+            }
+        }
+    ],
+    "2024 - Marzo": [
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 319,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 73
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 61,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 369,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 39
+            }
+        },
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 77,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 21
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        }
+    ],
+    "2024 - Abril": [
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 265,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 84
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 52,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 103,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 23
+            }
+        },
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 300,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 45
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        }
+    ],
+    "2024 - Mayo": [
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 481,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 118
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 60,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 247,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 24
+            }
+        },
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 92,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 43
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        }
+    ],
+    "2024 - Junio": [
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 158,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 45
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 83,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 279,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 29
+            }
+        },
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 78,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 35
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        }
+    ],
+    "2024 - Julio": [
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 119,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 16
+            }
+        },
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 126,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 31
+            }
+        },
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 78,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 22
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 36,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU (MAP. PAP)",
+            "value": {
+                "box": 2,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        }
+    ],
+    "2024 - Agosto": [
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 246,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 58
+            }
+        },
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 109,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 33
+            }
+        },
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 263,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 53
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 25,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU (PAP KISQA)",
+            "value": {
+                "box": 2,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 2
+            }
+        }
+    ],
+    "2024 - Setiembre": [
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 253,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 119
+            }
+        },
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 125,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 13
+            }
+        },
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 357,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 45
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 40,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU (PAP KISQA)",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU (MAP JAKAVI)",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        }
+    ],
+    "2024 - Octubre": [
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 161,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 28
+            }
+        },
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 296,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 90
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 41,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 364,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 84
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU (PAP)",
+            "value": {
+                "box": 3,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 3
+            }
+        }
+    ],
+    "2024 - Noviembre": [
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 187,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 55
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 32,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 310,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 32
+            }
+        },
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 50,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 13
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU (PAP)",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        }
+    ],
+    "2024 - Diciembre": [
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 178,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 48
+            }
+        },
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 161,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 39
+            }
+        },
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 93,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 21
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 13,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU (PAP)",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU (PAP KISQA)",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        }
+    ],
+    "2025 - Enero": [
+        {
+            "name": "Quimica Suiza S.A.C.",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        },
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 87,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 7
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 64,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 282,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 18
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU (PAP)",
+            "value": {
+                "box": 3,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 3
+            }
+        },
+        {
+            "name": "INRETAIL PHARMA S.A.",
+            "value": {
+                "box": 41,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 3
+            }
+        },
+        {
+            "name": "QS CONSUMO SAC",
+            "value": {
+                "box": 193,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 11
+            }
+        }
+    ],
+    "2025 - Febrero": [
+        {
+            "name": "REPRESENTACIONES DECO S.A.C.",
+            "value": {
+                "box": 86,
+                "box_completes": 40,
+                "box_saldo": 46,
+                "palletes": 6
+            }
+        },
+        {
+            "name": "H Reps S.A.C.",
+            "value": {
+                "box": 220,
+                "box_completes": 187,
+                "box_saldo": 33,
+                "palletes": 18
+            }
+        },
+        {
+            "name": "Laboratorios Siegfried S.A.C.",
+            "value": {
+                "box": 50,
+                "box_completes": 6,
+                "box_saldo": 44,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "QS CONSUMO SAC",
+            "value": {
+                "box": 136,
+                "box_completes": 124,
+                "box_saldo": 12,
+                "palletes": 12
+            }
+        },
+        {
+            "name": "NOVARTIS BIOSCIENCES PERU (PAP KISQA)",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 1,
+                "palletes": 1
+            }
+        }
+    ]
+};
 const dataClients = {
-    "H REPS S.A.C.":[
+    "H Reps SAC": [
         {
-            "name":"2024 - Enero",
-            "value":{
-                "box":365,
-                "palletes":23
+            "name": "2024 - Enero",
+            "value": {
+                "box": 365,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 23
             }
         },
         {
-            "name":"2024 - Febrero",
-            "value":{
-                "box":203,
-                "palletes":20
+            "name": "2024 - Febrero",
+            "value": {
+                "box": 203,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 20
             }
         },
         {
-            "name":"2024 - Marzo",
-            "value":{
-                "box":369,
-                "palletes":39
+            "name": "2024 - Marzo",
+            "value": {
+                "box": 369,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 39
             }
         },
         {
-            "name":"2024 - Abril",
-            "value":{
-                "box":300,
-                "palletes":45
+            "name": "2024 - Abril",
+            "value": {
+                "box": 300,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 45
             }
         },
         {
-            "name":"2024 - Mayo",
-            "value":{
-                "box":247,
-                "palletes":24
+            "name": "2024 - Mayo",
+            "value": {
+                "box": 247,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 24
             }
         },
         {
-            "name":"2024 - Junio",
-            "value":{
-                "box":279,
-                "palletes":29
+            "name": "2024 - Junio",
+            "value": {
+                "box": 279,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 29
             }
         },
         {
-            "name":"2024 - Julio",
-            "value":{
-                "box":119,
-                "palletes":16
+            "name": "2024 - Julio",
+            "value": {
+                "box": 119,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 16
             }
         },
         {
-            "name":"2024 - Agosto",
-            "value":{
-                "box":263,
-                "palletes":53
+            "name": "2024 - Agosto",
+            "value": {
+                "box": 263,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 53
             }
         },
         {
-            "name":"2024 - Setiembre",
-            "value":{
-                "box":357,
-                "palletes":45
+            "name": "2024 - Setiembre",
+            "value": {
+                "box": 357,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 45
             }
         },
         {
-            "name":"2024 - Octubre",
-            "value":{
-                "box":364,
-                "palletes":84
+            "name": "2024 - Octubre",
+            "value": {
+                "box": 364,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 84
             }
         },
         {
-            "name":"2024 - Noviembre",
-            "value":{
-                "box":310,
-                "palletes":32
+            "name": "2024 - Noviembre",
+            "value": {
+                "box": 310,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 32
             }
         },
         {
-            "name":"2024 - Diciembre",
-            "value":{
-                "box":161,
-                "palletes":38
+            "name": "2024 - Diciembre",
+            "value": {
+                "box": 161,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 39
             }
         },
         {
-            "name":"2025 - Enero",
-            "value":{
-                "box":282,
-                "palletes":83
+            "name": "2025 - Enero",
+            "value": {
+                "box": 282,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 18
+            }
+        },
+        {
+            "name": "2025 - Febrero",
+            "value": {
+                "box": 220,
+                "box_completes": 187,
+                "box_saldo": 33,
+                "palletes": 18
             }
         }
     ],
-    "Quimica Suiza S.A.C.":[
+    "Quimica Suiza SAC": [
         {
-            "name":"2024 - Enero",
-            "value":{
-                "box":451,
-                "palletes":92
+            "name": "2024 - Enero",
+            "value": {
+                "box": 451,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 92
             }
         },
         {
-            "name":"2024 - Febrero",
-            "value":{
-                "box":326,
-                "palletes":140
+            "name": "2024 - Febrero",
+            "value": {
+                "box": 326,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 140
             }
         },
         {
-            "name":"2024 - Marzo",
-            "value":{
-                "box":319,
-                "palletes":73
+            "name": "2024 - Marzo",
+            "value": {
+                "box": 319,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 73
             }
         },
         {
-            "name":"2024 - Abril",
-            "value":{
-                "box":265,
-                "palletes":84
+            "name": "2024 - Abril",
+            "value": {
+                "box": 265,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 84
             }
         },
         {
-            "name":"2024 - Mayo",
-            "value":{
-                "box":481,
-                "palletes":118
+            "name": "2024 - Mayo",
+            "value": {
+                "box": 481,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 118
             }
         },
         {
-            "name":"2024 - Junio",
-            "value":{
-                "box":158,
-                "palletes":45
+            "name": "2024 - Junio",
+            "value": {
+                "box": 158,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 45
             }
         },
         {
-            "name":"2024 - Julio",
-            "value":{
-                "box":126,
-                "palletes":31
+            "name": "2024 - Julio",
+            "value": {
+                "box": 126,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 31
             }
         },
         {
-            "name":"2024 - Agosto",
-            "value":{
-                "box":246,
-                "palletes":58
+            "name": "2024 - Agosto",
+            "value": {
+                "box": 246,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 58
             }
         },
         {
-            "name":"2024 - Setiembre",
-            "value":{
-                "box":253,
-                "palletes":119
+            "name": "2024 - Setiembre",
+            "value": {
+                "box": 253,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 119
             }
         },
         {
-            "name":"2024 - Octubre",
-            "value":{
-                "box":296,
-                "palletes":90
+            "name": "2024 - Octubre",
+            "value": {
+                "box": 296,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 90
             }
         },
         {
-            "name":"2024 - Noviembre",
-            "value":{
-                "box":187,
-                "palletes":55
+            "name": "2024 - Noviembre",
+            "value": {
+                "box": 187,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 55
             }
         },
         {
-            "name":"2024 - Diciembre",
-            "value":{
-                "box":178,
-                "palletes":48
+            "name": "2024 - Diciembre",
+            "value": {
+                "box": 178,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 48
             }
         },
         {
-            "name":"2025 - Enero",
-            "value":{
-                "box":1,
-                "palletes":1
+            "name": "2025 - Enero",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
             }
         }
     ],
-    "LABORATORIOS SIEGFRIED SAC":[
+    "Laboratorios Siegfried SAC": [
         {
-            "name":"2024 - Enero",
-            "value":{
-                "box":49,
-                "palletes":0
+            "name": "2024 - Enero",
+            "value": {
+                "box": 49,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2024 - Febrero",
-            "value":{
-                "box":52,
-                "palletes":0
+            "name": "2024 - Febrero",
+            "value": {
+                "box": 52,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2024 - Marzo",
-            "value":{
-                "box":61,
-                "palletes":0
+            "name": "2024 - Marzo",
+            "value": {
+                "box": 61,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2024 - Abril",
-            "value":{
-                "box":52,
-                "palletes":0
+            "name": "2024 - Abril",
+            "value": {
+                "box": 52,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2024 - Mayo",
-            "value":{
-                "box":60,
-                "palletes":0
+            "name": "2024 - Mayo",
+            "value": {
+                "box": 60,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2024 - Junio",
-            "value":{
-                "box":83,
-                "palletes":0
+            "name": "2024 - Junio",
+            "value": {
+                "box": 83,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2024 - Julio",
-            "value":{
-                "box":36,
-                "palletes":1
+            "name": "2024 - Julio",
+            "value": {
+                "box": 36,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
             }
         },
         {
-            "name":"2024 - Agosto",
-            "value":{
-                "box":25,
-                "palletes":0
+            "name": "2024 - Agosto",
+            "value": {
+                "box": 25,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2024 - Setiembre",
-            "value":{
-                "box":40,
-                "palletes":0
+            "name": "2024 - Setiembre",
+            "value": {
+                "box": 40,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2024 - Octubre",
-            "value":{
-                "box":41,
-                "palletes":0
+            "name": "2024 - Octubre",
+            "value": {
+                "box": 41,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2024 - Noviembre",
-            "value":{
-                "box":32,
-                "palletes":0
+            "name": "2024 - Noviembre",
+            "value": {
+                "box": 32,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2024 - Diciembre",
-            "value":{
-                "box":13,
-                "palletes":0
+            "name": "2024 - Diciembre",
+            "value": {
+                "box": 13,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2025 - Enero",
-            "value":{
-                "box":64,
-                "palletes":0
+            "name": "2025 - Enero",
+            "value": {
+                "box": 64,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
+            }
+        },
+        {
+            "name": "2025 - Febrero",
+            "value": {
+                "box": 50,
+                "box_completes": 6,
+                "box_saldo": 44,
+                "palletes": 0
             }
         }
     ],
-    "REPRESENTACIONES DECO S.A.C.":[
+    "REPRESENTACIONES DECO SAC": [
         {
-            "name":"2024 - Enero",
-            "value":{
-                "box":66,
-                "palletes":33
+            "name": "2024 - Enero",
+            "value": {
+                "box": 66,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 33
             }
         },
         {
-            "name":"2024 - Febrero",
-            "value":{
-                "box":66,
-                "palletes":22
+            "name": "2024 - Febrero",
+            "value": {
+                "box": 66,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 22
             }
         },
         {
-            "name":"2024 - Marzo",
-            "value":{
-                "box":77,
-                "palletes":21
+            "name": "2024 - Marzo",
+            "value": {
+                "box": 77,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 21
             }
         },
         {
-            "name":"2024 - Abril",
-            "value":{
-                "box":103,
-                "palletes":23
+            "name": "2024 - Abril",
+            "value": {
+                "box": 103,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 23
             }
         },
         {
-            "name":"2024 - Mayo",
-            "value":{
-                "box":92,
-                "palletes":43
+            "name": "2024 - Mayo",
+            "value": {
+                "box": 92,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 43
             }
         },
         {
-            "name":"2024 - Junio",
-            "value":{
-                "box":78,
-                "palletes":35
+            "name": "2024 - Junio",
+            "value": {
+                "box": 78,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 35
             }
         },
         {
-            "name":"2024 - Julio",
-            "value":{
-                "box":78,
-                "palletes":22
+            "name": "2024 - Julio",
+            "value": {
+                "box": 78,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 22
             }
         },
         {
-            "name":"2024 - Agosto",
-            "value":{
-                "box":109,
-                "palletes":33
+            "name": "2024 - Agosto",
+            "value": {
+                "box": 109,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 33
             }
         },
         {
-            "name":"2024 - Setiembre",
-            "value":{
-                "box":125,
-                "palletes":13
+            "name": "2024 - Setiembre",
+            "value": {
+                "box": 125,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 13
             }
         },
         {
-            "name":"2024 - Octubre",
-            "value":{
-                "box":161,
-                "palletes":28
+            "name": "2024 - Octubre",
+            "value": {
+                "box": 161,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 28
             }
         },
         {
-            "name":"2024 - Noviembre",
-            "value":{
-                "box":50,
-                "palletes":13
+            "name": "2024 - Noviembre",
+            "value": {
+                "box": 50,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 13
             }
         },
         {
-            "name":"2024 - Diciembre",
-            "value":{
-                "box":93,
-                "palletes":21
+            "name": "2024 - Diciembre",
+            "value": {
+                "box": 93,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 21
             }
         },
         {
-            "name":"2025 - Enero",
-            "value":{
-                "box":87,
-                "palletes":23
+            "name": "2025 - Enero",
+            "value": {
+                "box": 87,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 7
+            }
+        },
+        {
+            "name": "2025 - Febrero",
+            "value": {
+                "box": 86,
+                "box_completes": 40,
+                "box_saldo": 46,
+                "palletes": 6
             }
         }
     ],
-    "NOVARTIS BIOSCIENCES PAP":[
+    "NOVARTIS BIOSCIENCES PERU": [
         {
-            "name":"2024 - Febrero",
-            "value":{
-                "box":1,
-                "palletes":0
+            "name": "2024 - Febrero",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2024 - Marzo",
-            "value":{
-                "box":1,
-                "palletes":1
+            "name": "2024 - Marzo",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
             }
         },
         {
-            "name":"2024 - Abril",
-            "value":{
-                "box":1,
-                "palletes":0
+            "name": "2024 - Abril",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 0
             }
         },
         {
-            "name":"2024 - Mayo",
-            "value":{
-                "box":1,
-                "palletes":1
+            "name": "2024 - Mayo",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
             }
         },
         {
-            "name":"2024 - Junio",
-            "value":{
-                "box":1,
-                "palletes":1
-            }
-        },
-        {
-            "name":"2024 - Julio",
-            "value":{
-                "box":2,
-                "palletes":1
-            }
-        },
-        {
-            "name":"2024 - Agosto",
-            "value":{
-                "box":2,
-                "palletes":2
-            }
-        },
-        {
-            "name":"2024 - Setiembre",
-            "value":{
-                "box":2,
-                "palletes":2
-            }
-        },
-        {
-            "name":"2024 - Octubre",
-            "value":{
-                "box":3,
-                "palletes":3
-            }
-        },
-        {
-            "name":"2024 - Noviembre",
-            "value":{
-                "box":1,
-                "palletes":1
-            }
-        },
-        {
-            "name":"2024 - Diciembre",
-            "value":{
-                "box":2,
-                "palletes":2
-            }
-        },
-        {
-            "name":"2025 - Enero",
-            "value":{
-                "box":3,
-                "palletes":3
+            "name": "2024 - Junio",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
             }
         }
     ],
-    "INRETAIL PHARMA S.A.":[
+    "NOVARTIS BIOSCIENCES PERU (MAP PAP)": [
         {
-            "name":"2025 - Enero",
-            "value":{
-                "box":41,
-                "palletes":3
+            "name": "2024 - Julio",
+            "value": {
+                "box": 2,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
             }
         }
     ],
-    "QS CONSUMO SAC":[
+    "NOVARTIS BIOSCIENCES PERU (PAP KISQA)": [
         {
-            "name":"2025 - Enero",
-            "value":{
-                "box":193,
-                "palletes":79
+            "name": "2024 - Agosto",
+            "value": {
+                "box": 2,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 2
+            }
+        },
+        {
+            "name": "2024 - Setiembre",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        },
+        {
+            "name": "2024 - Diciembre",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        },
+        {
+            "name": "2025 - Febrero",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 1,
+                "palletes": 1
+            }
+        }
+    ],
+    "NOVARTIS BIOSCIENCES PERU (MAP JAKAVI)": [
+        {
+            "name": "2024 - Setiembre",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        }
+    ],
+    "NOVARTIS BIOSCIENCES PERU (PAP)": [
+        {
+            "name": "2024 - Octubre",
+            "value": {
+                "box": 3,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 3
+            }
+        },
+        {
+            "name": "2024 - Noviembre",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        },
+        {
+            "name": "2024 - Diciembre",
+            "value": {
+                "box": 1,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 1
+            }
+        },
+        {
+            "name": "2025 - Enero",
+            "value": {
+                "box": 3,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 3
+            }
+        }
+    ],
+    "INRETAIL PHARMA SA": [
+        {
+            "name": "2025 - Enero",
+            "value": {
+                "box": 41,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 3
+            }
+        }
+    ],
+    "QS CONSUMO SAC": [
+        {
+            "name": "2025 - Enero",
+            "value": {
+                "box": 193,
+                "box_completes": 0,
+                "box_saldo": 0,
+                "palletes": 11
+            }
+        },
+        {
+            "name": "2025 - Febrero",
+            "value": {
+                "box": 136,
+                "box_completes": 124,
+                "box_saldo": 12,
+                "palletes": 12
             }
         }
     ]
@@ -1449,40 +2339,80 @@ const optionsFilter = {
             name: "2025 - Enero",
             value: "2025 - Enero",
         },
+        {
+            name: "2025 - Febrero",
+            value: "2025 - Febrero",
+        },
     ],
     client: [
         {
-            "name":"H REPS S.A.C.",
-            "value":"H REPS S.A.C."
+           "name":"REPRESENTACIONES DECO SAC",
+           "value":"REPRESENTACIONES DECO SAC"
         },
         {
-            "name":"Quimica Suiza S.A.C.",
-            "value":"Quimica Suiza S.A.C."
+           "name":"Quimica Suiza SAC",
+           "value":"Quimica Suiza SAC"
         },
         {
-            "name":"LABORATORIOS SIEGFRIED SAC",
-            "value":"LABORATORIOS SIEGFRIED SAC"
+           "name":"Laboratorios Siegfried SAC",
+           "value":"Laboratorios Siegfried SAC"
         },
         {
-            "name":"REPRESENTACIONES DECO S.A.C.",
-            "value":"REPRESENTACIONES DECO S.A.C."
+           "name":"CINTHIA DIAZ PORTUGAL",
+           "value":"CINTHIA DIAZ PORTUGAL"
         },
         {
-            "name":"NOVARTIS BIOSCIENCES PAP",
-            "value":"NOVARTIS BIOSCIENCES PAP"
+           "name":"CASTELLANO TALLEDO LUIS ALBERTO",
+           "value":"CASTELLANO TALLEDO LUIS ALBERTO"
         },
         {
-            "name":"INRETAIL PHARMA S.A.",
-            "value":"INRETAIL PHARMA S.A."
+           "name":"HERSIL REPRESENTACIONES SAC",
+           "value":"HERSIL REPRESENTACIONES SAC"
         },
         {
-            "name":"QS CONSUMO SAC",
-            "value":"QS CONSUMO SAC"
+           "name":"DANY CESAR REA HURTADO",
+           "value":"DANY CESAR REA HURTADO"
+        },
+        {
+           "name":"MEDICINA AVANZADA SA",
+           "value":"MEDICINA AVANZADA SA"
+        },
+        {
+           "name":"NOVARTIS BIOSCIENCES PERU",
+           "value":"NOVARTIS BIOSCIENCES PERU"
+        },
+        {
+           "name":"H Reps SAC",
+           "value":"H Reps SAC"
+        },
+        {
+           "name":"NOVARTIS BIOSCIENCES PERU (MAP PAP)",
+           "value":"NOVARTIS BIOSCIENCES PERU (MAP PAP)"
+        },
+        {
+           "name":"NOVARTIS BIOSCIENCES PERU (PAP KISQA)",
+           "value":"NOVARTIS BIOSCIENCES PERU (PAP KISQA)"
+        },
+        {
+           "name":"NOVARTIS BIOSCIENCES PERU (MAP JAKAVI)",
+           "value":"NOVARTIS BIOSCIENCES PERU (MAP JAKAVI)"
+        },
+        {
+           "name":"NOVARTIS BIOSCIENCES PERU (PAP)",
+           "value":"NOVARTIS BIOSCIENCES PERU (PAP)"
+        },
+        {
+           "name":"INRETAIL PHARMA SA",
+           "value":"INRETAIL PHARMA SA"
+        },
+        {
+           "name":"QS CONSUMO SAC",
+           "value":"QS CONSUMO SAC"
         }
     ]
 }
 
-const Dispatch = ({ typeFilter }) => {
+const Dispatch = ({ typeFilter, yearSelected }) => {
 
     const [typeFilterTwo, setTypeFilerTwo] = useState("");
 
@@ -1493,7 +2423,7 @@ const Dispatch = ({ typeFilter }) => {
                     {typeFilter !== "all" ?
                         <div className='w-full mt-6 p-3 flex items-center justify-between gap-x-4 rounded-lg bg-gray-three'>
                             {optionsFilter[typeFilter].map(({ name, value }, index) => (
-                                <button key={"optionOcupability-" + index} className={cn('w-full p-2 text-center text-lg font-semibold rounded-lg transition-all duration-500 cursor-pointer hover:bg-white', typeFilterTwo == value ? "border bg-white border-black-two" : "bg-gray-two")} onClick={() => setTypeFilerTwo(value)}>
+                                <button key={"optionOcupability-" + index} className={cn('w-full p-2 text-center text-sm font-semibold rounded-lg transition-all duration-500 cursor-pointer hover:bg-white', typeFilterTwo == value ? "border bg-white border-black-two" : "bg-gray-two")} onClick={() => setTypeFilerTwo(value)}>
                                     {name}
                                 </button>
                             ))}
@@ -1510,14 +2440,14 @@ const Dispatch = ({ typeFilter }) => {
                     {typeFilter !== "all" ?
                         <div className='w-full mt-6 p-3 flex items-center justify-between gap-x-4 rounded-lg bg-gray-three'>
                             {optionsFilter[typeFilter].map(({ name, value }, index) => (
-                                <button key={"optionOcupability-" + index} className={cn('w-full p-2 text-center text-lg font-semibold rounded-lg transition-all duration-500 cursor-pointer hover:bg-white', typeFilterTwo == value ? "border bg-white border-black-two" : "bg-gray-two")} onClick={() => setTypeFilerTwo(value)}>
+                                <button key={"optionOcupability-" + index} className={cn('w-full p-2 text-center text-sm font-semibold rounded-lg transition-all duration-500 cursor-pointer hover:bg-white', typeFilterTwo == value ? "border bg-white border-black-two" : "bg-gray-two")} onClick={() => setTypeFilerTwo(value)}>
                                     {name}
                                 </button>
                             ))}
                         </div> :
                         <></>
                     }
-                    <DispatchMonth data={dataClients[typeFilterTwo]} />
+                    <DispatchMonth data={dataClients[typeFilterTwo]} yearSelected={yearSelected} />
                 </>
             )
     
@@ -1527,14 +2457,14 @@ const Dispatch = ({ typeFilter }) => {
                     {typeFilter !== "all" ?
                         <div className='w-full mt-6 p-3 flex items-center justify-between gap-x-4 rounded-lg bg-gray-three'>
                             {optionsFilter[typeFilter].map(({ name, value }, index) => (
-                                <button key={"optionOcupability-" + index} className={cn('w-full p-2 text-center text-lg font-semibold rounded-lg transition-all duration-500 cursor-pointer hover:bg-white', typeFilterTwo == value ? "border bg-white border-black-two" : "bg-gray-two")} onClick={() => setTypeFilerTwo(value)}>
+                                <button key={"optionOcupability-" + index} className={cn('w-full p-2 text-center text-sm font-semibold rounded-lg transition-all duration-500 cursor-pointer hover:bg-white', typeFilterTwo == value ? "border bg-white border-black-two" : "bg-gray-two")} onClick={() => setTypeFilerTwo(value)}>
                                     {name}
                                 </button>
                             ))}
                         </div> :
                         <></>
                     }
-                    <DispatchAll />
+                    <DispatchAll yearSelected={yearSelected} />
                 </>
             )
     }

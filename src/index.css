@@ -19,3 +19,7 @@
     --spacing-menu-open: calc(100% - (var(--spacing) * 96));
     --spacing-menu-close: calc(100% - (var(--spacing) * 16));
 }
+
+html {
+    font-size: 16px;
+}
