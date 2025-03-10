@@ -1,5 +1,7 @@
 import { PureComponent, useEffect, useState } from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LabelList, LineChart, Line, ComposedChart } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LabelList, LineChart, Line, ComposedChart, PieChart, Pie, Sector } from 'recharts';
+import OcupabilityPie from './OcupabilityPie';
+import { cn } from '../utils/ui';
 
 let dataOcupability = [
     {
@@ -371,19 +373,19 @@ dataOcupability = [
 ];
 
 const colorsOcupability = {
-   "Contramuestras": "#264478",
-   "Devoluciones": "#A5A5A5",
-   "Controlados": "#ED7D31",
-   "Rechazados": "#636363",
-   "PT Muestra Médica": "#9E480E",
-   "Material de empaque": "#5B9BD5",
-   "Material promocional": "#70AD47",
-   "PT Disponible": "#264478",
-   "PT Cuarentena": "#997300",
-   "Mat Embalaje": "#FFC000",
-   "Cuarentena Controlados": "#14b8a6",
-   "Cuarentena Material de empaque": "#c084fc",
-   "MM Cuarentena": "#4d7c0f",
+    "Contramuestras": "#264478",
+    "Devoluciones": "#A5A5A5",
+    "Controlados": "#ED7D31",
+    "Rechazados": "#636363",
+    "PT Muestra Médica": "#9E480E",
+    "Material de empaque": "#5B9BD5",
+    "Material promocional": "#70AD47",
+    "PT Disponible": "#264478",
+    "PT Cuarentena": "#997300",
+    "Mat Embalaje": "#FFC000",
+    "Cuarentena Controlados": "#14b8a6",
+    "Cuarentena Material de empaque": "#c084fc",
+    "MM Cuarentena": "#4d7c0f",
 }
 
 function  getNameParse(name) {
@@ -475,18 +477,57 @@ const CustomTooltipTotal = ({ active, payload }) => {
 const Ocupability = ({ typeO, yearSelected }) => {
 
     const [dataFilter, setDataFilter] = useState(dataOcupability);
+    const [dataPieFilter, setDataPieFilter] = useState([]);
 
     useEffect(() => {
         const dataFilter = dataOcupability.filter(i => i.name.includes(yearSelected));
+        const dataPieFilter = [];
+
+        for (let i = 0; i < dataFilter.length; i++) {
+            const e = dataFilter[i];
+            const {
+                name,
+                quantity
+            } = e;
+            const val = [];
+
+            for (const k in e) {
+                if (k !== "name" && k !== "quantity") {
+                    const value = e[k];
+
+                    if (value) {
+                        const obj = {
+                            name: k,
+                            value: e[k]
+                        };
+                        val.push(obj);
+                    };
+                };
+            };
+
+            const objc = {
+                name,
+                quantity,
+                val
+            };
+            dataPieFilter.push(objc);
+        };
 
         setDataFilter(dataFilter);
+        setDataPieFilter(dataPieFilter);
     },[yearSelected]);
 
     switch (typeO) {
         case "Todos":
             return (
-                <ResponsiveContainer width="98%" height="80%">
-                    <ComposedChart
+                <div
+                    // className={cn('h-full gap-4', dataPieFilter.length > 2 ? "flex flex-col" : "grid")}
+                    className="h-full gap-4 grid grid-cols-2"
+                    // style={{
+                    //     gridTemplateColumns: `repeat(${dataPieFilter.length}, minmax(0, 1fr))`
+                    // }}
+                >
+                    {/* <ComposedChart
                         width={500}
                         height={300}
                         data={dataFilter}
@@ -546,9 +587,9 @@ const Ocupability = ({ typeO, yearSelected }) => {
                             <LabelList dataKey="MM Cuarentena" content={CustomLabel} />
                             <LabelList content={CustomTotalLabel} />
                         </Bar>
-
-                    </ComposedChart>
-                </ResponsiveContainer>)
+                    </ComposedChart> */}
+                    {dataPieFilter.map((i, index) => (<OcupabilityPie key={`pie-${index}`} data={i} />))}
+                </div>)
 
         default:
             return (
