@@ -2287,54 +2287,54 @@ const defaultFilters = {
 }
 const optionsFilter = {
     month: [
-        {
-            name: "2024 - Enero",
-            value: "2024 - Enero",
-        },
-        {
-            name: "2024 - Febrero",
-            value: "2024 - Febrero",
-        },
-        {
-            name: "2024 - Marzo",
-            value: "2024 - Marzo",
-        },
-        {
-            name: "2024 - Abril",
-            value: "2024 - Abril",
-        },
-        {
-            name: "2024 - Mayo",
-            value: "2024 - Mayo",
-        },
-        {
-            name: "2024 - Junio",
-            value: "2024 - Junio",
-        },
-        {
-            name: "2024 - Julio",
-            value: "2024 - Julio",
-        },
-        {
-            name: "2024 - Agosto",
-            value: "2024 - Agosto",
-        },
-        {
-            name: "2024 - Setiembre",
-            value: "2024 - Setiembre",
-        },
-        {
-            name: "2024 - Octubre",
-            value: "2024 - Octubre",
-        },
-        {
-            name: "2024 - Noviembre",
-            value: "2024 - Noviembre",
-        },
-        {
-            name: "2024 - Diciembre",
-            value: "2024 - Diciembre",
-        },
+        // {
+        //     name: "2024 - Enero",
+        //     value: "2024 - Enero",
+        // },
+        // {
+        //     name: "2024 - Febrero",
+        //     value: "2024 - Febrero",
+        // },
+        // {
+        //     name: "2024 - Marzo",
+        //     value: "2024 - Marzo",
+        // },
+        // {
+        //     name: "2024 - Abril",
+        //     value: "2024 - Abril",
+        // },
+        // {
+        //     name: "2024 - Mayo",
+        //     value: "2024 - Mayo",
+        // },
+        // {
+        //     name: "2024 - Junio",
+        //     value: "2024 - Junio",
+        // },
+        // {
+        //     name: "2024 - Julio",
+        //     value: "2024 - Julio",
+        // },
+        // {
+        //     name: "2024 - Agosto",
+        //     value: "2024 - Agosto",
+        // },
+        // {
+        //     name: "2024 - Setiembre",
+        //     value: "2024 - Setiembre",
+        // },
+        // {
+        //     name: "2024 - Octubre",
+        //     value: "2024 - Octubre",
+        // },
+        // {
+        //     name: "2024 - Noviembre",
+        //     value: "2024 - Noviembre",
+        // },
+        // {
+        //     name: "2024 - Diciembre",
+        //     value: "2024 - Diciembre",
+        // },
         {
             name: "2025 - Enero",
             value: "2025 - Enero",
