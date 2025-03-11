@@ -2357,46 +2357,46 @@ const optionsFilter = {
            "name":"Laboratorios Siegfried SAC",
            "value":"Laboratorios Siegfried SAC"
         },
-        {
-           "name":"CINTHIA DIAZ PORTUGAL",
-           "value":"CINTHIA DIAZ PORTUGAL"
-        },
-        {
-           "name":"CASTELLANO TALLEDO LUIS ALBERTO",
-           "value":"CASTELLANO TALLEDO LUIS ALBERTO"
-        },
-        {
-           "name":"HERSIL REPRESENTACIONES SAC",
-           "value":"HERSIL REPRESENTACIONES SAC"
-        },
-        {
-           "name":"DANY CESAR REA HURTADO",
-           "value":"DANY CESAR REA HURTADO"
-        },
-        {
-           "name":"MEDICINA AVANZADA SA",
-           "value":"MEDICINA AVANZADA SA"
-        },
-        {
-           "name":"NOVARTIS BIOSCIENCES PERU",
-           "value":"NOVARTIS BIOSCIENCES PERU"
-        },
+        // {
+        //    "name":"CINTHIA DIAZ PORTUGAL",
+        //    "value":"CINTHIA DIAZ PORTUGAL"
+        // },
+        // {
+        //    "name":"CASTELLANO TALLEDO LUIS ALBERTO",
+        //    "value":"CASTELLANO TALLEDO LUIS ALBERTO"
+        // },
+        // {
+        //    "name":"HERSIL REPRESENTACIONES SAC",
+        //    "value":"HERSIL REPRESENTACIONES SAC"
+        // },
+        // {
+        //    "name":"DANY CESAR REA HURTADO",
+        //    "value":"DANY CESAR REA HURTADO"
+        // },
+        // {
+        //    "name":"MEDICINA AVANZADA SA",
+        //    "value":"MEDICINA AVANZADA SA"
+        // },
+        // {
+        //    "name":"NOVARTIS BIOSCIENCES PERU",
+        //    "value":"NOVARTIS BIOSCIENCES PERU"
+        // },
         {
            "name":"H Reps SAC",
            "value":"H Reps SAC"
         },
-        {
-           "name":"NOVARTIS BIOSCIENCES PERU (MAP PAP)",
-           "value":"NOVARTIS BIOSCIENCES PERU (MAP PAP)"
-        },
+        // {
+        //    "name":"NOVARTIS BIOSCIENCES PERU (MAP PAP)",
+        //    "value":"NOVARTIS BIOSCIENCES PERU (MAP PAP)"
+        // },
         {
            "name":"NOVARTIS BIOSCIENCES PERU (PAP KISQA)",
            "value":"NOVARTIS BIOSCIENCES PERU (PAP KISQA)"
         },
-        {
-           "name":"NOVARTIS BIOSCIENCES PERU (MAP JAKAVI)",
-           "value":"NOVARTIS BIOSCIENCES PERU (MAP JAKAVI)"
-        },
+        // {
+        //    "name":"NOVARTIS BIOSCIENCES PERU (MAP JAKAVI)",
+        //    "value":"NOVARTIS BIOSCIENCES PERU (MAP JAKAVI)"
+        // },
         {
            "name":"NOVARTIS BIOSCIENCES PERU (PAP)",
            "value":"NOVARTIS BIOSCIENCES PERU (PAP)"

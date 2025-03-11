@@ -2672,7 +2672,7 @@ const Deteriorado = ({ typeDeteriorado, yearSelected }) => {
                         height={300}
                         data={dataFilterLine.data}
                         margin={{
-                            top: 20,
+                            top: 40,
                             right: 30,
                             left: 20,
                             bottom: 5,
@@ -2685,7 +2685,10 @@ const Deteriorado = ({ typeDeteriorado, yearSelected }) => {
                         <Tooltip content={<CustomTooltipTrashDetail />} />
                         <Legend />
         
-                        <Line
+                        <Bar dataKey="trash" fill="#161f35">
+                            <LabelList content={<CustomizedLabel />} />
+                        </Bar>
+                        {/* <Line
                             type="monotone"
                             dataKey="trash"
                             data={dataFilterLine.data}
@@ -2696,7 +2699,7 @@ const Deteriorado = ({ typeDeteriorado, yearSelected }) => {
                             fill="#161f35"
                             label={<CustomizedLabel />}
                         >
-                        </Line>
+                        </Line> */}
                     </ComposedChart>
                 </ResponsiveContainer>
             )
