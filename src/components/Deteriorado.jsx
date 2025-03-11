@@ -2712,7 +2712,7 @@ const Deteriorado = ({ typeDeteriorado, yearSelected }) => {
                         height={300}
                         data={dataFilter}
                         margin={{
-                            top: 20,
+                            top: 40,
                             right: 30,
                             left: 20,
                             bottom: 5,

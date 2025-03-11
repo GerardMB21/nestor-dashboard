@@ -533,7 +533,7 @@ const Ocupability = ({ typeO, yearSelected }) => {
                         data={dataFilter}
                         margin={
                             {
-                                top: 20,
+                                top: 40,
                                 right: 30,
                                 left: 20,
                                 bottom: 5,
@@ -600,7 +600,7 @@ const Ocupability = ({ typeO, yearSelected }) => {
                         data={dataFilter}
                         margin={
                             {
-                                top: 20,
+                                top: 40,
                                 right: 30,
                                 left: 20,
                                 bottom: 5,
