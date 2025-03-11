@@ -1155,7 +1155,7 @@ const optionsAROC = [
       ]
    },
    {
-      name: "Actas Seco",
+      name: "Actas 15°C-25°C",
       value: [
          "AR_seco"
       ]
@@ -1174,7 +1174,7 @@ const optionsAROC = [
       ]
    },
    {
-      name: "OC Seco",
+      name: "OC 15°C-25°C",
       value: [
          "OC_seco",
       ]

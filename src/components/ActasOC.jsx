@@ -598,13 +598,13 @@ const colorsAROC = {
 function getNameParse(name) {
     switch (name) {
         case "AR_seco":
-        return "AR Seco";
+        return "AR 15°C-25°C";
 
         case "AR_refrigeration":
         return "AR Refrigeración";
 
         case "OC_seco":
-        return "OC Seco";
+        return "OC 15°C-25°C";
 
         case "OC_refrigeration":
         return "OC Refrigeración";
