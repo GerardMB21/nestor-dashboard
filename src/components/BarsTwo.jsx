@@ -20,10 +20,10 @@ const optionsDashboard = [
         name: "Ocupabilidad",
         value: "OCUPABILITY"
     },
-    {
-        name: "Cantidad Ocupada",
-        value: "QUANTITY"
-    },
+    // {
+    //     name: "Cantidad Ocupada",
+    //     value: "QUANTITY"
+    // },
     {
         name: "Cajas y Paletas despachadas",
         value: "BOX_PALLETES"
@@ -33,23 +33,11 @@ const optionsDashboard = [
 const BarsTwo = () => {
 
     const [typeGraph, setTypeGraph] = useState("AROC");
-    const [yearSelected, setYearSelected] = useState("2025");
-
-    function changeSection(val) {
-        setTypeGraph(val)
-    }
 
     return (
         <div className="w-full h-dvh p-4 bg-white-four">
 
             <h1 className='w-full text-center text-3xl font-bold my-6'>KPI's Novartis</h1>
-
-            <div className='w-full flex items-center justify-start mb-6'>
-                <div className='w-auto grid grid-cols-2 rounded-2xl'>
-                    <button className={cn('w-full px-4 py-2 text-base cursor-pointer rounded-l-2xl hover:bg-white', yearSelected == "2024" ? "border bg-white border-black-two" : "bg-gray-two")} onClick={() => setYearSelected("2024")}>2024</button>
-                    <button className={cn('w-full px-4 py-2 text-base cursor-pointer rounded-r-2xl hover:bg-white', yearSelected == "2025" ? "border bg-white border-black-two" : "bg-gray-two")} onClick={() => setYearSelected("2025")}>2025</button>
-                </div>
-            </div>
 
             <div className='w-full p-4 flex items-center justify-between gap-x-6 rounded-lg bg-gray-three'>
                 {optionsDashboard.map(({ name, value }, index) => (
@@ -59,7 +47,7 @@ const BarsTwo = () => {
                 ))}
             </div>
 
-            <GroupBars type={typeGraph} yearSelected={yearSelected} />
+            <GroupBars type={typeGraph} yearSelected={"2025"} />
         </div>
     );
 }

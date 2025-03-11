@@ -1148,12 +1148,6 @@ const lineTrash = {
 
 const optionsAROC = [
    {
-      name: "Todos",
-      value: [
-         "Todos"
-      ]
-   },
-   {
       name: "Actas",
       value: [
          "AR_seco",
@@ -1189,6 +1183,12 @@ const optionsAROC = [
       name: "OC Refrigerado",
       value: [
          "OC_refrigeration",
+      ]
+   },
+   {
+      name: "Ar VS Oc",
+      value: [
+         "Todos"
       ]
    },
 ]
@@ -1433,7 +1433,10 @@ const CustomTooltipTrash = ({ active, payload }) => {
 };
 
 const GroupBars = ({ type, yearSelected }) => {
-   const [typeAROC, setTypeAROC] = useState(["Todos"]);
+   const [typeAROC, setTypeAROC] = useState([
+    "AR_seco",
+    "AR_refrigeration"
+    ]);
    const [typeO, setTypeO] = useState("Todos");
    const [typeUnity, setTypeUnity] = useState("quantity");
    const [typeDeteriorado, setTypeDeteriorado] = useState("detail");

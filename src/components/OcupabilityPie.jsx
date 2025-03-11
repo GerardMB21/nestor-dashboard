@@ -71,7 +71,9 @@ const OcupabilityPie = ({ data }) => {
 
     return (<ResponsiveContainer width="98%" height="80%">
         <h2 className='text-center text-2xl mt-4'>{data.name}</h2>
+        <p className='text-center text-xl mt-4'>Total Cantidad: 584</p>
         <p className='text-center text-xl mt-4'>Total Cantidad Ocupada: {data.quantity}</p>
+        <p className='text-center text-xl mt-4'>Porcentaje Ocupado: {((data.quantity * 100) / 584).toFixed(2)}%</p>
         <PieChart width={100} height={100}>
             <Pie
                 activeIndex={activeIndex}
